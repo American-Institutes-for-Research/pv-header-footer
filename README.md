@@ -1,4 +1,4 @@
-Header and Footer Script
+# Header and Footer Script
 
 For dynamically appending header and footer. Used in:
 https://github.com/CSSIP-AIR/PatentsView-Query

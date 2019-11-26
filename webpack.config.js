@@ -5,7 +5,7 @@ const VueLoaderPlugin = require("vue-loader/lib/plugin")
 const config = {
     entry: "./header_footer_src/index.js",
     output: {
-        path: path.resolve(__dirname, "querymodule/public_html/js"),
+        path: path.resolve(__dirname),
         filename: "header_footer.js"
     },
     module: {

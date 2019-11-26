@@ -1,9 +1,9 @@
 import Vue from "vue"
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import Header from "./components/header.vue"
+import Footer from "./components/footer.vue"
 
 // temporary banner
-import SSHNotif from './components/SSHNotif'
+import SSHNotif from './components/SSHNotif.vue'
 
 const header = document.createElement("div")
 document.body.prepend(header)

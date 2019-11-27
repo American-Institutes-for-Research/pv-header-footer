@@ -40,6 +40,10 @@ pipeline{
                     [configFile(fileId: '46e89014-8038-47a8-9ccd-d672268ffe76', variable: 'CNF')]) {
                     sh 'cat "$CNF" >> .aws/credentials'
                 }
+                configFileProvider([configFile(fileId: '5aec7e27-c003-4a06-a852-7d39e075cf30', variable: 'CRED')])
+                 {
+                    sh 'mv "$CRED" cred.ini'
+                 }
 
                 // Step 2.
                 script{
@@ -114,7 +118,8 @@ pipeline{
                 }
                 
                 // step 2. upload
-                sh (script: "aws s3 cp header_footer.js  s3://pv-build-resources/")
+                // sh (script: "aws s3 cp header_footer.js  s3://pv-build-resources/")
+                sh (script: "python upload-to-s3.py -c cred.ini -t ${timestamp} -d `pwd` -e ${environment}")
 
             } // end steps 
 

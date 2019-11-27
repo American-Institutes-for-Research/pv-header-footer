@@ -14,3 +14,21 @@ pandas
 pymysql
 xlrd
 awscli
+# download-metadata.py: 6
+SQLAlchemy
+
+# download-metadata.py: 1
+bs4
+
+# download-metadata.py: 4
+mysqlclient
+
+# download-metadata.py: 10
+numpy
+
+# download-metadata.py: 9
+pandas
+
+# download-metadata.py: 2
+pies2overrides
+boto3

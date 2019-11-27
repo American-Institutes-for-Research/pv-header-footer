@@ -112,14 +112,17 @@ pipeline{
 
                 // step 1. npm build to get header_footer.js file
                 script{
-                    
+                                        def stringenvironment="DEV"
+                    if (params.live){
+                        stringenvironment="PROD"
+                    }
                     sh (script: "npm run build")
-
+                    // step 2. upload
+                // sh (script: "aws s3 cp header_footer.js  s3://pv-build-resources/")
+                sh (script: "python upload-to-s3.py -c cred.ini -t ${timestamp} -d `pwd` -e ${stringenvironment}")
                 }
                 
-                // step 2. upload
-                // sh (script: "aws s3 cp header_footer.js  s3://pv-build-resources/")
-                sh (script: "python upload-to-s3.py -c cred.ini -t ${timestamp} -d `pwd` -e ${environment}")
+
 
             } // end steps 
 

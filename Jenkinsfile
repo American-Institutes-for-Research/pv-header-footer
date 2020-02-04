@@ -34,11 +34,11 @@ pipeline{
                 sh 'mkdir -p ~/.aws'
                 configFileProvider(
                     [configFile(fileId: 'bebda31a-597c-4687-8bd3-03aebf92385e', variable: 'CNF')]) {
-                    sh 'cat "$CNF" >> .aws/config'
+                    sh 'cat "$CNF" > .aws/config'
                 }
                 configFileProvider(
                     [configFile(fileId: '46e89014-8038-47a8-9ccd-d672268ffe76', variable: 'CNF')]) {
-                    sh 'cat "$CNF" >> .aws/credentials'
+                    sh 'cat "$CNF" > .aws/credentials'
                 }
                 configFileProvider([configFile(fileId: '5aec7e27-c003-4a06-a852-7d39e075cf30', variable: 'CRED')])
                  {

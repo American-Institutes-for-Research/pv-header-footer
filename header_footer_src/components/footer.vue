@@ -433,7 +433,9 @@
                 inventor can be difficult. This is particularly true if the
                 inventor’s name is common or has multiple forms. The USPTO
                 hosted an
-                <a href="https://www.patentsview.org/workshop/" target="_blank"
+                <a
+                  href="https://community.patentsview.org/workshop-2015"
+                  target="_blank"
                   >Inventor Disambiguation Workshop</a
                 >
                 on September 24, 2015. The research team from the University of

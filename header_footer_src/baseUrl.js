@@ -11,6 +11,9 @@ switch (hostname) {
     case "www.patentsview.org":
         baseUrl = "https://www.patentsview.org"
         break
+    case "api.patentsview.org":
+        baseUrl = "https://www.patentsview.org"
+        break
     default:
         console.log("Unknown hostname.")
 }

@@ -1,6 +1,8 @@
 # Header and Footer Script
 
-For dynamically appending header and footer. 
+For dynamically appending header and footer.
+
+Deploy the build `/header_footer.js` to [https://github.com/American-Institutes-for-Research/pv-header-footer-deploy](https://github.com/American-Institutes-for-Research/pv-header-footer-deploy)
 
 Used in:
 

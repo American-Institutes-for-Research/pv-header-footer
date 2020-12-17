@@ -2,7 +2,7 @@
 
 For dynamically appending header and footer.
 
-Deploy the build `/header_footer.js` to [https://github.com/American-Institutes-for-Research/pv-header-footer-deploy](https://github.com/American-Institutes-for-Research/pv-header-footer-deploy)
+The build `/header_footer.js` is deployed via [jsDelivr](https://www.jsdelivr.com/), available at [https://cdn.jsdelivr.net/gh/PatentsView/pv-header-footer/header_footer.js](https://cdn.jsdelivr.net/gh/PatentsView/pv-header-footer/header_footer.js).
 
 Used in:
 
@@ -11,8 +11,11 @@ Used in:
 - https://github.com/American-Institutes-for-Research/PatentsView-Downloads
 
 ```bash
-# install deps
+# install dependencies
 npm install
+# development
+# open `dev.html`
+npm run dev
 # build
 npm run build
 ```

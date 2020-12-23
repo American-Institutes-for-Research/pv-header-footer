@@ -222,9 +222,29 @@ export default {
 }
 .pvu__logo img {
   max-width: 221px;
+  animation-duration: 300ms;
+  animation-name: shrink-back;
 }
 .longer-second-row .pvu__logo img {
   max-width: 120px;
+  animation-duration: 300ms;
+  animation-name: shrink;
+}
+@keyframes shrink {
+  from {
+    max-width: 221px;
+  }
+  to {
+    max-width: 120px;
+  }
+}
+@keyframes shrink-back {
+  from {
+    max-width: 120px;
+  }
+  to {
+    max-width: 221px;
+  }
 }
 
 .pvu__desktop {
@@ -250,9 +270,29 @@ export default {
 }
 .desktop2 {
   max-width: 600px;
+  animation-duration: 300ms;
+  animation-name: expand-back;
 }
 .longer-second-row .desktop2 {
   max-width: 750px;
+  animation-duration: 300ms;
+  animation-name: expand;
+}
+@keyframes expand {
+  from {
+    max-width: 600px;
+  }
+  to {
+    max-width: 750px;
+  }
+}
+@keyframes expand-back {
+  from {
+    max-width: 750px;
+  }
+  to {
+    max-width: 600px;
+  }
 }
 
 .pvu__header-links {
@@ -265,6 +305,8 @@ export default {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   cursor: default;
+  animation-duration: 300ms;
+  animation-name: shrink-font-back;
 }
 .header-links1 {
   color: #7c8c9f;
@@ -274,13 +316,44 @@ export default {
 }
 .longer-second-row .pvu__header-links {
   font-size: 12px;
+  animation-duration: 300ms;
+  animation-name: shrink-font;
+}
+@keyframes shrink-font {
+  from {
+    font-size: 14px;
+  }
+  to {
+    font-size: 12px;
+  }
+}
+@keyframes shrink-font-back {
+  from {
+    font-size: 12px;
+  }
+  to {
+    font-size: 14px;
+  }
 }
 
 .secondary-links {
   display: none;
+  animation-duration: 300ms;
 }
 .longer-second-row .secondary-links {
   display: flex;
+  animation-duration: 300ms;
+  animation-name: shift;
+}
+@keyframes shift {
+  from {
+    transform: translateX(-150px);
+    display: none;
+  }
+  to {
+    transform: translateX(0);
+    display: flex;
+  }
 }
 
 .pvu__link-text {

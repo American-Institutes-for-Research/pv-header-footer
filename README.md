@@ -14,7 +14,7 @@ Used in:
 # install dependencies
 npm install
 # development
-# open `dev.html`
+## open or serve `dev.html`
 npm run dev
 # build
 npm run build

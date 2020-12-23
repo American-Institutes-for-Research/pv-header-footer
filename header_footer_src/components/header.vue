@@ -1,49 +1,45 @@
 <template>
-  <header class="pv-universal__header">
+  <header class="pvu__header">
     <!-- first row -->
-    <section class="pv-universal__header-first">
-      <div class="pv-universal__header-menu">
-        <div class="pv-universal__desktop desktop1">
-          <div class="pv-universal__header-links header-links1">
-            <div class="pv-universal__link-text link-text1">
+    <section class="pvu__header-first">
+      <div class="pvu__header-menu">
+        <div class="pvu__desktop desktop1">
+          <div class="pvu__header-links header-links1">
+            <div class="pvu__link-text link-text1">
               About
             </div>
-            <div class="pv-universal__link-menu link-menu1">
+            <div class="pvu__link-menu link-menu1">
               <a href="">What Is PatentsView</a>
               <a href="">Glossary</a>
               <a href="">Terms of Use and Privacy</a>
             </div>
           </div>
-          <div class="pv-universal__header-links header-links1">
-            <div class="pv-universal__link-text link-text1">
+          <div class="pvu__header-links header-links1">
+            <div class="pvu__link-text link-text1">
               Methods & Srouces
             </div>
-            <div class="pv-universal__link-menu link-menu1">
+            <div class="pvu__link-menu link-menu1">
               <a href="">Disambiguition</a>
               <a href="">Gender Attributes</a>
               <a href="">Government Interests</a>
             </div>
           </div>
-          <div class="pv-universal__header-links header-links1">
-            <div class="pv-universal__link-text link-text1">
+          <div class="pvu__header-links header-links1">
+            <div class="pvu__link-text link-text1">
               Community
             </div>
-            <div class="pv-universal__link-menu link-menu1">
+            <div class="pvu__link-menu link-menu1">
               <a href="">Welcome</a>
-              <a href="" class="pv-universal__secondary-link"
-                >Rules of Conduct</a
-              >
-              <a href="" class="pv-universal__secondary-link"
-                >Events and Workshops</a
-              >
-              <a href="" class="pv-universal__secondary-link">Contact Us</a>
+              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
+              <a href="" class="pvu__secondary-link">Events and Workshops</a>
+              <a href="" class="pvu__secondary-link">Contact Us</a>
               <a href="">Forum</a>
               <a href="">Data Spotlight</a>
             </div>
           </div>
         </div>
-        <div class="pv-universal__mobile mobile1">
-          <div class="pv-universal__bars">
+        <div class="pvu__mobile mobile1">
+          <div class="pvu__bars">
             <span></span>
             <span></span>
             <span></span>
@@ -52,125 +48,105 @@
       </div>
     </section>
     <!-- second row -->
-    <section class="pv-universal__header-second">
+    <section class="pvu__header-second">
       <div
-        class="pv-universal__header-menu"
+        class="pvu__header-menu"
         :class="this.scrollPosY > 45 ? 'longer-second-row' : null"
       >
         <a href="">
-          <div class="pv-universal__logo">
+          <div class="pvu__logo">
             <img :src="pv_logo" alt="Logo: USPTO PatentsView" />
           </div>
         </a>
-        <div class="pv-universal__desktop desktop2">
-          <div class="pv-universal__header-links header-links2">
-            <div class="pv-universal__link-text link-text2">
+        <div class="pvu__desktop desktop2">
+          <div class="pvu__header-links header-links2">
+            <div class="pvu__link-text link-text2">
               DATA VISUALIZATION
             </div>
-            <div class="pv-universal__link-menu link-menu2">
+            <div class="pvu__link-menu link-menu2">
               <a href="">What Is PatentsView</a>
               <a href="">Glossary</a>
               <a href="">Terms of Use and Privacy</a>
             </div>
           </div>
-          <div class="pv-universal__header-links header-links2">
-            <div class="pv-universal__link-text link-text2">
+          <div class="pvu__header-links header-links2">
+            <div class="pvu__link-text link-text2">
               EXPLORE PATENTS DATA
             </div>
-            <div class="pv-universal__link-menu link-menu2">
+            <div class="pvu__link-menu link-menu2">
               <a href="">Disambiguition</a>
               <a href="">Gender Attributes</a>
               <a href="">Government Interests</a>
             </div>
           </div>
-          <div class="pv-universal__header-links header-links2">
-            <div class="pv-universal__link-text link-text2">
+          <div class="pvu__header-links header-links2">
+            <div class="pvu__link-text link-text2">
               DATASETS
             </div>
-            <div class="pv-universal__link-menu link-menu2">
+            <div class="pvu__link-menu link-menu2">
               <a href="">Welcome</a>
-              <a href="" class="pv-universal__secondary-link"
-                >Rules of Conduct</a
-              >
-              <a href="" class="pv-universal__secondary-link"
-                >Events and Workshops</a
-              >
-              <a href="" class="pv-universal__secondary-link">Contact Us</a>
+              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
+              <a href="" class="pvu__secondary-link">Events and Workshops</a>
+              <a href="" class="pvu__secondary-link">Contact Us</a>
               <a href="">Forum</a>
               <a href="">Data Spotlight</a>
             </div>
           </div>
-          <div class="pv-universal__header-links header-links2">
-            <div class="pv-universal__link-text link-text2">
+          <div class="pvu__header-links header-links2">
+            <div class="pvu__link-text link-text2">
               APIs
             </div>
-            <div class="pv-universal__link-menu link-menu2">
+            <div class="pvu__link-menu link-menu2">
               <a href="">Welcome</a>
-              <a href="" class="pv-universal__secondary-link"
-                >Rules of Conduct</a
-              >
-              <a href="" class="pv-universal__secondary-link"
-                >Events and Workshops</a
-              >
-              <a href="" class="pv-universal__secondary-link">Contact Us</a>
+              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
+              <a href="" class="pvu__secondary-link">Events and Workshops</a>
+              <a href="" class="pvu__secondary-link">Contact Us</a>
               <a href="">Forum</a>
               <a href="">Data Spotlight</a>
             </div>
           </div>
-          <div class="pv-universal__header-links header-links2 secondary-links">
-            <div class="pv-universal__link-text link-text2">
+          <div class="pvu__header-links header-links2 secondary-links">
+            <div class="pvu__link-text link-text2">
               ABOUT
             </div>
-            <div class="pv-universal__link-menu link-menu2">
+            <div class="pvu__link-menu link-menu2">
               <a href="">Welcome</a>
-              <a href="" class="pv-universal__secondary-link"
-                >Rules of Conduct</a
-              >
-              <a href="" class="pv-universal__secondary-link"
-                >Events and Workshops</a
-              >
-              <a href="" class="pv-universal__secondary-link">Contact Us</a>
+              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
+              <a href="" class="pvu__secondary-link">Events and Workshops</a>
+              <a href="" class="pvu__secondary-link">Contact Us</a>
               <a href="">Forum</a>
               <a href="">Data Spotlight</a>
             </div>
           </div>
-          <div class="pv-universal__header-links header-links2 secondary-links">
-            <div class="pv-universal__link-text link-text2">
+          <div class="pvu__header-links header-links2 secondary-links">
+            <div class="pvu__link-text link-text2">
               METHODS & SOURCES
             </div>
-            <div class="pv-universal__link-menu link-menu2">
+            <div class="pvu__link-menu link-menu2">
               <a href="">Welcome</a>
-              <a href="" class="pv-universal__secondary-link"
-                >Rules of Conduct</a
-              >
-              <a href="" class="pv-universal__secondary-link"
-                >Events and Workshops</a
-              >
-              <a href="" class="pv-universal__secondary-link">Contact Us</a>
+              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
+              <a href="" class="pvu__secondary-link">Events and Workshops</a>
+              <a href="" class="pvu__secondary-link">Contact Us</a>
               <a href="">Forum</a>
               <a href="">Data Spotlight</a>
             </div>
           </div>
-          <div class="pv-universal__header-links header-links2 secondary-links">
-            <div class="pv-universal__link-text link-text2">
+          <div class="pvu__header-links header-links2 secondary-links">
+            <div class="pvu__link-text link-text2">
               COMMUNITY
             </div>
-            <div class="pv-universal__link-menu link-menu2">
+            <div class="pvu__link-menu link-menu2">
               <a href="">Welcome</a>
-              <a href="" class="pv-universal__secondary-link"
-                >Rules of Conduct</a
-              >
-              <a href="" class="pv-universal__secondary-link"
-                >Events and Workshops</a
-              >
-              <a href="" class="pv-universal__secondary-link">Contact Us</a>
+              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
+              <a href="" class="pvu__secondary-link">Events and Workshops</a>
+              <a href="" class="pvu__secondary-link">Contact Us</a>
               <a href="">Forum</a>
               <a href="">Data Spotlight</a>
             </div>
           </div>
         </div>
-        <div class="pv-universal__mobile mobile2">
-          <div class="pv-universal__bars">
+        <div class="pvu__mobile mobile2">
+          <div class="pvu__bars">
             <span></span>
             <span></span>
             <span></span>
@@ -204,54 +180,54 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
-.pv-universal__header * {
+.pvu__header * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.pv-universal__header {
+.pvu__header {
   position: sticky;
   position: -webkit-sticky;
   top: -45px;
 }
 
-.pv-universal__header .pv-universal__header-first {
+.pvu__header .pvu__header-first {
   background-color: #d0dded;
 }
 
-.pv-universal__header .pv-universal__header-menu {
+.pvu__header .pvu__header-menu {
   max-width: 960px;
   padding: 0 30px;
   margin: 0 auto;
 }
 
-.pv-universal__header-first .pv-universal__header-menu {
+.pvu__header-first .pvu__header-menu {
   height: 45px;
 }
 
-.pv-universal__header .pv-universal__header-second {
+.pvu__header .pvu__header-second {
   background-color: #4f5f6f;
 }
 
-.pv-universal__header-second .pv-universal__header-menu {
+.pvu__header-second .pvu__header-menu {
   height: 70px;
 }
 
-.pv-universal__logo {
+.pvu__logo {
   float: left;
   height: 100%;
   display: flex;
   align-items: center;
 }
-.pv-universal__logo img {
+.pvu__logo img {
   max-width: 221px;
 }
-.longer-second-row .pv-universal__logo img {
+.longer-second-row .pvu__logo img {
   max-width: 120px;
 }
 
-.pv-universal__desktop {
+.pvu__desktop {
   float: right;
   display: flex;
   height: 100%;
@@ -279,7 +255,7 @@ export default {
   max-width: 750px;
 }
 
-.pv-universal__header-links {
+.pvu__header-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -296,7 +272,7 @@ export default {
 .header-links2 {
   color: #f1d673;
 }
-.longer-second-row .pv-universal__header-links {
+.longer-second-row .pvu__header-links {
   font-size: 12px;
 }
 
@@ -307,14 +283,14 @@ export default {
   display: flex;
 }
 
-.pv-universal__link-text {
+.pvu__link-text {
   padding: 0 20px;
 }
-.longer-second-row .pv-universal__link-text {
+.longer-second-row .pvu__link-text {
   padding: 0 10px;
 }
 
-.pv-universal__link-menu {
+.pvu__link-menu {
   display: none;
   position: absolute;
   right: 0;
@@ -336,7 +312,7 @@ export default {
   color: #444444;
 }
 
-.pv-universal__link-menu a {
+.pvu__link-menu a {
   padding: 0 20px;
   line-height: 35px;
   display: block;
@@ -349,48 +325,48 @@ export default {
 .link-menu2 a:hover {
   background-color: #f1d673;
 }
-a.pv-universal__secondary-link {
+a.pvu__secondary-link {
   padding-left: 40px;
 }
 
-.pv-universal__header-links:hover .pv-universal__link-text {
+.pvu__header-links:hover .pvu__link-text {
   height: 100%;
   display: flex;
   align-items: center;
 }
-.pv-universal__header-links:hover .link-text1 {
+.pvu__header-links:hover .link-text1 {
   background-color: black;
   color: white;
 }
-.pv-universal__header-links:hover .link-text2 {
+.pvu__header-links:hover .link-text2 {
   background-color: #f5e095;
   color: black;
 }
 
-.pv-universal__header-links:hover .pv-universal__link-menu {
+.pvu__header-links:hover .pvu__link-menu {
   display: block;
   z-index: 1;
 }
 
-.pv-universal__bars span {
+.pvu__bars span {
   display: block;
   width: 22px;
   height: 2px;
   border-radius: 1px;
   display: block;
 }
-.mobile1 .pv-universal__bars span {
+.mobile1 .pvu__bars span {
   background-color: #4f5f6f;
 }
-.mobile2 .pv-universal__bars span {
+.mobile2 .pvu__bars span {
   background-color: white;
 }
 
-.pv-universal__bars span:not(:first-child) {
+.pvu__bars span:not(:first-child) {
   margin-top: 4px;
 }
 
-.pv-universal__mobile {
+.pvu__mobile {
   display: none;
   height: 100%;
   float: right;

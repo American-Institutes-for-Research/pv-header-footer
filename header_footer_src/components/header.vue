@@ -42,7 +42,7 @@
             </div>
           </div>
         </div>
-        <div class="pv-universal__mobile">
+        <div class="pv-universal__mobile mobile1">
           <div class="pv-universal__bars">
             <span></span>
             <span></span>
@@ -53,7 +53,10 @@
     </section>
     <!-- second row -->
     <section class="pv-universal__header-second">
-      <div class="pv-universal__header-menu">
+      <div
+        class="pv-universal__header-menu"
+        :class="this.scrollPosY > 45 ? 'longer-second-row' : null"
+      >
         <a href="">
           <div class="pv-universal__logo">
             <img :src="pv_logo" alt="Logo: USPTO PatentsView" />
@@ -114,8 +117,59 @@
               <a href="">Data Spotlight</a>
             </div>
           </div>
+          <div class="pv-universal__header-links header-links2 secondary-links">
+            <div class="pv-universal__link-text link-text2">
+              ABOUT
+            </div>
+            <div class="pv-universal__link-menu link-menu2">
+              <a href="">Welcome</a>
+              <a href="" class="pv-universal__secondary-link"
+                >Rules of Conduct</a
+              >
+              <a href="" class="pv-universal__secondary-link"
+                >Events and Workshops</a
+              >
+              <a href="" class="pv-universal__secondary-link">Contact Us</a>
+              <a href="">Forum</a>
+              <a href="">Data Spotlight</a>
+            </div>
+          </div>
+          <div class="pv-universal__header-links header-links2 secondary-links">
+            <div class="pv-universal__link-text link-text2">
+              METHODS & SOURCES
+            </div>
+            <div class="pv-universal__link-menu link-menu2">
+              <a href="">Welcome</a>
+              <a href="" class="pv-universal__secondary-link"
+                >Rules of Conduct</a
+              >
+              <a href="" class="pv-universal__secondary-link"
+                >Events and Workshops</a
+              >
+              <a href="" class="pv-universal__secondary-link">Contact Us</a>
+              <a href="">Forum</a>
+              <a href="">Data Spotlight</a>
+            </div>
+          </div>
+          <div class="pv-universal__header-links header-links2 secondary-links">
+            <div class="pv-universal__link-text link-text2">
+              COMMUNITY
+            </div>
+            <div class="pv-universal__link-menu link-menu2">
+              <a href="">Welcome</a>
+              <a href="" class="pv-universal__secondary-link"
+                >Rules of Conduct</a
+              >
+              <a href="" class="pv-universal__secondary-link"
+                >Events and Workshops</a
+              >
+              <a href="" class="pv-universal__secondary-link">Contact Us</a>
+              <a href="">Forum</a>
+              <a href="">Data Spotlight</a>
+            </div>
+          </div>
         </div>
-        <div class="pv-universal__mobile">
+        <div class="pv-universal__mobile mobile2">
           <div class="pv-universal__bars">
             <span></span>
             <span></span>
@@ -135,10 +189,14 @@ export default {
   data() {
     return {
       pv_logo: null,
+      scrollPosY: 0,
     };
   },
   mounted() {
     this.pv_logo = pv_logo;
+    window.addEventListener("scroll", () => {
+      this.scrollPosY = window.scrollY;
+    });
   },
 };
 </script>
@@ -189,6 +247,9 @@ export default {
 .pv-universal__logo img {
   max-width: 221px;
 }
+.longer-second-row .pv-universal__logo img {
+  max-width: 120px;
+}
 
 .pv-universal__desktop {
   float: right;
@@ -199,15 +260,23 @@ export default {
   align-items: center;
 }
 @media (max-width: 475px) {
-  .pv-universal__desktop {
+  .desktop1 {
     display: none;
   }
 }
 .desktop1 {
   max-width: 380px;
 }
+@media (max-width: 930px) {
+  .desktop2 {
+    display: none;
+  }
+}
 .desktop2 {
   max-width: 600px;
+}
+.longer-second-row .desktop2 {
+  max-width: 750px;
 }
 
 .pv-universal__header-links {
@@ -227,9 +296,22 @@ export default {
 .header-links2 {
   color: #f1d673;
 }
+.longer-second-row .pv-universal__header-links {
+  font-size: 12px;
+}
+
+.secondary-links {
+  display: none;
+}
+.longer-second-row .secondary-links {
+  display: flex;
+}
 
 .pv-universal__link-text {
   padding: 0 20px;
+}
+.longer-second-row .pv-universal__link-text {
+  padding: 0 10px;
 }
 
 .pv-universal__link-menu {
@@ -291,12 +373,17 @@ a.pv-universal__secondary-link {
 }
 
 .pv-universal__bars span {
-  background-color: #4f5f6f;
   display: block;
   width: 22px;
   height: 2px;
   border-radius: 1px;
   display: block;
+}
+.mobile1 .pv-universal__bars span {
+  background-color: #4f5f6f;
+}
+.mobile2 .pv-universal__bars span {
+  background-color: white;
 }
 
 .pv-universal__bars span:not(:first-child) {
@@ -311,7 +398,12 @@ a.pv-universal__secondary-link {
   cursor: pointer;
 }
 @media (max-width: 475px) {
-  .pv-universal__mobile {
+  .mobile1 {
+    display: flex;
+  }
+}
+@media (max-width: 930px) {
+  .mobile2 {
     display: flex;
   }
 }

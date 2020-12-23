@@ -11,11 +11,16 @@ Used in:
 - https://github.com/American-Institutes-for-Research/PatentsView-Downloads
 
 ```bash
-# install dependencies
+# Install dependencies
 npm install
-# development
+
+# Development
 ## open or serve `/dev/index.html`
+cd dev
+npx live-server
+## dev mode
 npm run dev
-# build
+
+# Production build
 npm run build
 ```

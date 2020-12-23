@@ -4,8 +4,8 @@
     <section class="pv-universal__header-first">
       <div class="pv-universal__header-menu">
         <div class="pv-universal__desktop desktop1">
-          <div class="pv-universal__header-links">
-            <div class="pv-universal__link-text">
+          <div class="pv-universal__header-links header-links1">
+            <div class="pv-universal__link-text link-text1">
               About
             </div>
             <div class="pv-universal__link-menu link-menu1">
@@ -14,8 +14,8 @@
               <a href="">Terms of Use and Privacy</a>
             </div>
           </div>
-          <div class="pv-universal__header-links">
-            <div class="pv-universal__link-text">
+          <div class="pv-universal__header-links header-links1">
+            <div class="pv-universal__link-text link-text1">
               Methods & Srouces
             </div>
             <div class="pv-universal__link-menu link-menu1">
@@ -24,8 +24,8 @@
               <a href="">Government Interests</a>
             </div>
           </div>
-          <div class="pv-universal__header-links">
-            <div class="pv-universal__link-text">
+          <div class="pv-universal__header-links header-links1">
+            <div class="pv-universal__link-text link-text1">
               Community
             </div>
             <div class="pv-universal__link-menu link-menu1">
@@ -54,12 +54,14 @@
     <!-- second row -->
     <section class="pv-universal__header-second">
       <div class="pv-universal__header-menu">
-        <div class="pv-universal__logo">
-          <img src="" alt="pv logo" />
-        </div>
+        <a href="">
+          <div class="pv-universal__logo">
+            <img :src="pv_logo" alt="Logo: USPTO PatentsView" />
+          </div>
+        </a>
         <div class="pv-universal__desktop desktop2">
-          <div class="pv-universal__header-links">
-            <div class="pv-universal__link-text">
+          <div class="pv-universal__header-links header-links2">
+            <div class="pv-universal__link-text link-text2">
               DATA VISUALIZATION
             </div>
             <div class="pv-universal__link-menu link-menu2">
@@ -68,8 +70,8 @@
               <a href="">Terms of Use and Privacy</a>
             </div>
           </div>
-          <div class="pv-universal__header-links">
-            <div class="pv-universal__link-text">
+          <div class="pv-universal__header-links header-links2">
+            <div class="pv-universal__link-text link-text2">
               EXPLORE PATENTS DATA
             </div>
             <div class="pv-universal__link-menu link-menu2">
@@ -78,8 +80,8 @@
               <a href="">Government Interests</a>
             </div>
           </div>
-          <div class="pv-universal__header-links">
-            <div class="pv-universal__link-text">
+          <div class="pv-universal__header-links header-links2">
+            <div class="pv-universal__link-text link-text2">
               DATASETS
             </div>
             <div class="pv-universal__link-menu link-menu2">
@@ -95,8 +97,8 @@
               <a href="">Data Spotlight</a>
             </div>
           </div>
-          <div class="pv-universal__header-links">
-            <div class="pv-universal__link-text">
+          <div class="pv-universal__header-links header-links2">
+            <div class="pv-universal__link-text link-text2">
               APIs
             </div>
             <div class="pv-universal__link-menu link-menu2">
@@ -126,9 +128,18 @@
 </template>
 
 <script>
+import pv_logo from "../img/pv-header-logo.png";
+
 export default {
   name: "PVHeader",
-  mounted() {},
+  data() {
+    return {
+      pv_logo: null,
+    };
+  },
+  mounted() {
+    this.pv_logo = pv_logo;
+  },
 };
 </script>
 
@@ -171,6 +182,12 @@ export default {
 
 .pv-universal__logo {
   float: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.pv-universal__logo img {
+  max-width: 221px;
 }
 
 .pv-universal__desktop {
@@ -202,8 +219,13 @@ export default {
   line-height: 24px;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
-  color: #7c8c9f;
   cursor: default;
+}
+.header-links1 {
+  color: #7c8c9f;
+}
+.header-links2 {
+  color: #f1d673;
 }
 
 .pv-universal__link-text {
@@ -211,7 +233,6 @@ export default {
 }
 
 .pv-universal__link-menu {
-  background-color: black;
   display: none;
   position: absolute;
   right: 0;
@@ -220,32 +241,48 @@ export default {
 }
 .link-menu1 {
   top: 45px;
+  background-color: black;
+}
+.link-menu1 a {
+  color: white;
 }
 .link-menu2 {
   top: 70px;
+  background-color: #f5e095;
+}
+.link-menu2 a {
+  color: #444444;
 }
 
 .pv-universal__link-menu a {
   padding: 0 20px;
   line-height: 35px;
   display: block;
-  color: white;
   text-decoration: none;
   white-space: nowrap;
 }
-.pv-universal__link-menu a:hover {
+.link-menu1 a:hover {
   background-color: #444444;
+}
+.link-menu2 a:hover {
+  background-color: #f1d673;
 }
 a.pv-universal__secondary-link {
   padding-left: 40px;
 }
 
 .pv-universal__header-links:hover .pv-universal__link-text {
-  background-color: black;
-  color: white;
   height: 100%;
   display: flex;
   align-items: center;
+}
+.pv-universal__header-links:hover .link-text1 {
+  background-color: black;
+  color: white;
+}
+.pv-universal__header-links:hover .link-text2 {
+  background-color: #f5e095;
+  color: black;
 }
 
 .pv-universal__header-links:hover .pv-universal__link-menu {

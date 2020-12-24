@@ -9,9 +9,17 @@
               About
             </div>
             <div class="pvu__link-menu link-menu1">
-              <a href="">What Is PatentsView</a>
-              <a href="">Glossary</a>
-              <a href="">Terms of Use and Privacy</a>
+              <a
+                href="https://patentsviewcommunity.int.air.org/what-is-patentsview"
+                >What Is PatentsView</a
+              >
+              <a href="https://patentsviewcommunity.int.air.org/glossary"
+                >Glossary</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/about/terms-privacy"
+                >Terms of Use and Privacy</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links1">
@@ -19,9 +27,17 @@
               Methods & Srouces
             </div>
             <div class="pvu__link-menu link-menu1">
-              <a href="">Disambiguition</a>
-              <a href="">Gender Attributes</a>
-              <a href="">Government Interests</a>
+              <a href="https://patentsviewcommunity.int.air.org/disambiguation"
+                >Disambiguition</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/gender-attribution"
+                >Gender Attributes</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/government-interest"
+                >Government Interests</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links1">
@@ -29,12 +45,28 @@
               Community
             </div>
             <div class="pvu__link-menu link-menu1">
-              <a href="">Welcome</a>
-              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
-              <a href="" class="pvu__secondary-link">Events and Workshops</a>
-              <a href="" class="pvu__secondary-link">Contact Us</a>
-              <a href="">Forum</a>
-              <a href="">Data Spotlight</a>
+              <a href="https://patentsviewcommunity.int.air.org/welcome"
+                >Welcome</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/rules-of-conduct"
+                class="pvu__secondary-link"
+                >Rules of Conduct</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/events"
+                class="pvu__secondary-link"
+                >Events and Workshops</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/contact"
+                class="pvu__secondary-link"
+                >Contact Us</a
+              >
+              <a href="https://patentsviewcommunity.int.air.org/forum">Forum</a>
+              <a href="https://patentsviewcommunity.int.air.org/data-in-action"
+                >Data Spotlight</a
+              >
             </div>
           </div>
         </div>
@@ -43,6 +75,9 @@
             <span></span>
             <span></span>
             <span></span>
+          </div>
+          <div style="display:none;">
+            menu
           </div>
         </div>
       </div>
@@ -53,7 +88,7 @@
         class="pvu__header-menu"
         :class="this.scrollPosY > 45 ? 'longer-second-row' : null"
       >
-        <a href="">
+        <a href="https://www.patentsview.org/">
           <div class="pvu__logo">
             <img :src="pv_logo" alt="Logo: USPTO PatentsView" />
           </div>
@@ -64,9 +99,15 @@
               DATA VISUALIZATION
             </div>
             <div class="pvu__link-menu link-menu2">
-              <a href="">What Is PatentsView</a>
-              <a href="">Glossary</a>
-              <a href="">Terms of Use and Privacy</a>
+              <a href="http://www.patentsview.org/web/#viz/relationships"
+                >Relationships</a
+              >
+              <a href="http://www.patentsview.org/web/#viz/locations"
+                >Locations</a
+              >
+              <a href="http://www.patentsview.org/web/#viz/comparisons"
+                >Comparisons</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2">
@@ -74,9 +115,12 @@
               EXPLORE PATENTS DATA
             </div>
             <div class="pvu__link-menu link-menu2">
-              <a href="">Disambiguition</a>
-              <a href="">Gender Attributes</a>
-              <a href="">Government Interests</a>
+              <a href="https://www.patentsview.org/web/#search&simp=1"
+                >Simple Search</a
+              >
+              <a href="https://www.patentsview.org/web/#search"
+                >Advanced Search</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2">
@@ -84,12 +128,25 @@
               DATASETS
             </div>
             <div class="pvu__link-menu link-menu2">
-              <a href="">Welcome</a>
-              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
-              <a href="" class="pvu__secondary-link">Events and Workshops</a>
-              <a href="" class="pvu__secondary-link">Contact Us</a>
-              <a href="">Forum</a>
-              <a href="">Data Spotlight</a>
+              <a href="https://www.patentsview.org/query">Query Builder</a>
+              <a
+                href="https://patentsviewcommunity.int.air.org/query/data-dictionary"
+                class="pvu__secondary-link"
+                >Query Build Data Dictionary</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/query/builder-faqs"
+                class="pvu__secondary-link"
+                >Query Builder FAQs</a
+              >
+              <a href="https://www.patentsview.org/download"
+                >Data Download Tables</a
+              >
+              <a
+                href="https://s3.amazonaws.com/data.patentsview.org/documents/Patents_DB_dictionary_bulk_downloads.xlsx"
+                class="pvu__secondary-link"
+                >Data Download Data Dictionary</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2">
@@ -97,12 +154,20 @@
               APIs
             </div>
             <div class="pvu__link-menu link-menu2">
-              <a href="">Welcome</a>
-              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
-              <a href="" class="pvu__secondary-link">Events and Workshops</a>
-              <a href="" class="pvu__secondary-link">Contact Us</a>
-              <a href="">Forum</a>
-              <a href="">Data Spotlight</a>
+              <a href="https://patentsviewcommunity.int.air.org/apis/purpose"
+                >Purpose</a
+              >
+              <a href="https://patentsviewcommunity.int.air.org/apis/api-faqs"
+                >API FAQs</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/apis/api-query-language"
+                >API Query Language</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/apis/api-endpoints"
+                >API Endpoints</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2 secondary-links">
@@ -110,12 +175,17 @@
               ABOUT
             </div>
             <div class="pvu__link-menu link-menu2">
-              <a href="">Welcome</a>
-              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
-              <a href="" class="pvu__secondary-link">Events and Workshops</a>
-              <a href="" class="pvu__secondary-link">Contact Us</a>
-              <a href="">Forum</a>
-              <a href="">Data Spotlight</a>
+              <a
+                href="https://patentsviewcommunity.int.air.org/what-is-patentsview"
+                >What Is PatentsView</a
+              >
+              <a href="https://patentsviewcommunity.int.air.org/glossary"
+                >Glossary</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/about/terms-privacy"
+                >Terms of Use and Privacy</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2 secondary-links">
@@ -123,12 +193,17 @@
               METHODS & SOURCES
             </div>
             <div class="pvu__link-menu link-menu2">
-              <a href="">Welcome</a>
-              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
-              <a href="" class="pvu__secondary-link">Events and Workshops</a>
-              <a href="" class="pvu__secondary-link">Contact Us</a>
-              <a href="">Forum</a>
-              <a href="">Data Spotlight</a>
+              <a href="https://patentsviewcommunity.int.air.org/disambiguation"
+                >Disambiguition</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/gender-attribution"
+                >Gender Attributes</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/government-interest"
+                >Government Interests</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2 secondary-links">
@@ -136,12 +211,28 @@
               COMMUNITY
             </div>
             <div class="pvu__link-menu link-menu2">
-              <a href="">Welcome</a>
-              <a href="" class="pvu__secondary-link">Rules of Conduct</a>
-              <a href="" class="pvu__secondary-link">Events and Workshops</a>
-              <a href="" class="pvu__secondary-link">Contact Us</a>
-              <a href="">Forum</a>
-              <a href="">Data Spotlight</a>
+              <a href="https://patentsviewcommunity.int.air.org/welcome"
+                >Welcome</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/rules-of-conduct"
+                class="pvu__secondary-link"
+                >Rules of Conduct</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/events"
+                class="pvu__secondary-link"
+                >Events and Workshops</a
+              >
+              <a
+                href="https://patentsviewcommunity.int.air.org/contact"
+                class="pvu__secondary-link"
+                >Contact Us</a
+              >
+              <a href="https://patentsviewcommunity.int.air.org/forum">Forum</a>
+              <a href="https://patentsviewcommunity.int.air.org/data-in-action"
+                >Data Spotlight</a
+              >
             </div>
           </div>
         </div>
@@ -161,15 +252,13 @@
 import pv_logo from "../img/pv-header-logo.png";
 
 export default {
-  name: "PVHeader",
   data() {
     return {
-      pv_logo: null,
+      pv_logo,
       scrollPosY: 0,
     };
   },
   mounted() {
-    this.pv_logo = pv_logo;
     window.addEventListener("scroll", () => {
       this.scrollPosY = window.scrollY;
     });
@@ -181,9 +270,9 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
 .pvu__header * {
-  box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", sans-serif;
 }
 
 .pvu__header {
@@ -303,7 +392,6 @@ export default {
   height: 100%;
   line-height: 24px;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
   cursor: default;
   animation-duration: 200ms;
   animation-name: shrink-font-back;
@@ -384,6 +472,9 @@ export default {
 .link-menu2 a {
   color: #444444;
 }
+.link-menu2 a:not(:first-child) {
+  margin-top: 10px;
+}
 
 .pvu__link-menu a {
   padding: 0 20px;
@@ -397,6 +488,7 @@ export default {
 }
 .link-menu2 a:hover {
   background-color: #f1d673;
+  color: black;
 }
 a.pvu__secondary-link {
   padding-left: 40px;

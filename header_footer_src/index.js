@@ -1,10 +1,6 @@
 import Vue from "vue";
+
 import Header from "./components/Header.vue";
-import Footer from "./components/Footer.vue";
-
-// temporary notification banner
-// import SSHNotif from './components/SSHNotif.vue'
-
 const header = document.createElement("div");
 document.body.prepend(header);
 new Vue({
@@ -12,6 +8,7 @@ new Vue({
   render: (h) => h(Header),
 });
 
+import Footer from "./components/Footer.vue";
 const footer = document.createElement("div");
 document.body.append(footer);
 new Vue({
@@ -19,6 +16,8 @@ new Vue({
   render: (h) => h(Footer),
 });
 
+// temporary notification banner
+// import SSHNotif from './components/SSHNotif.vue'
 // const sshNotif = document.createElement("div")
 // document.body.append(sshNotif)
 // new Vue({

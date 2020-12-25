@@ -71,13 +71,84 @@
           </div>
         </div>
         <div class="pvu__mobile mobile1">
-          <div class="pvu__bars">
+          <div class="pvu__bars" @click="mobile1menu = true">
             <span></span>
             <span></span>
             <span></span>
           </div>
-          <div style="display:none;">
-            menu
+          <div class="pvu__mobile1-menu" v-if="mobile1menu">
+            <div class="pvu__mobile1-close">
+              <span @click="mobile1menu = false">x</span>
+            </div>
+            <div class="pvu__mobile1-section">
+              <div class="pvu__mobile1-section-head">
+                About
+              </div>
+              <div>
+                <a
+                  href="https://patentsviewcommunity.int.air.org/what-is-patentsview"
+                  >What Is PatentsView</a
+                >
+                <a href="https://patentsviewcommunity.int.air.org/glossary"
+                  >Glossary</a
+                >
+                <a
+                  href="https://patentsviewcommunity.int.air.org/about/terms-privacy"
+                  >Terms of Use and Privacy</a
+                >
+              </div>
+            </div>
+            <div class="pvu__mobile1-section">
+              <div class="pvu__mobile1-section-head">
+                Methods & Srouces
+              </div>
+              <div>
+                <a
+                  href="https://patentsviewcommunity.int.air.org/disambiguation"
+                  >Disambiguition</a
+                >
+                <a
+                  href="https://patentsviewcommunity.int.air.org/gender-attribution"
+                  >Gender Attributes</a
+                >
+                <a
+                  href="https://patentsviewcommunity.int.air.org/government-interest"
+                  >Government Interests</a
+                >
+              </div>
+            </div>
+            <div class="pvu__mobile1-section">
+              <div class="pvu__mobile1-section-head">
+                Community
+              </div>
+              <div>
+                <a href="https://patentsviewcommunity.int.air.org/welcome"
+                  >Welcome</a
+                >
+                <a
+                  href="https://patentsviewcommunity.int.air.org/rules-of-conduct"
+                  class="pvu__secondary-link"
+                  >Rules of Conduct</a
+                >
+                <a
+                  href="https://patentsviewcommunity.int.air.org/events"
+                  class="pvu__secondary-link"
+                  >Events and Workshops</a
+                >
+                <a
+                  href="https://patentsviewcommunity.int.air.org/contact"
+                  class="pvu__secondary-link"
+                  >Contact Us</a
+                >
+                <a href="https://patentsviewcommunity.int.air.org/forum"
+                  >Forum</a
+                >
+                <a
+                  href="https://patentsviewcommunity.int.air.org/data-in-action"
+                  >Data Spotlight</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -237,10 +308,164 @@
           </div>
         </div>
         <div class="pvu__mobile mobile2">
-          <div class="pvu__bars">
+          <div class="pvu__bars" @click="mobile2menu = true">
             <span></span>
             <span></span>
             <span></span>
+          </div>
+          <div class="pvu__mobile2-menu" v-if="mobile2menu">
+            <div class="pvu__mobile2-close">
+              <span @click="mobile2menu = false">x</span>
+            </div>
+            <div class="pvu__mobile2-grid">
+              <div class="pvu__mobile2-section">
+                <div class="pvu__mobile2-section-head">
+                  DATA VISUALIZATION
+                </div>
+                <div>
+                  <a href="http://www.patentsview.org/web/#viz/relationships"
+                    >Relationships</a
+                  >
+                  <a href="http://www.patentsview.org/web/#viz/locations"
+                    >Locations</a
+                  >
+                  <a href="http://www.patentsview.org/web/#viz/comparisons"
+                    >Comparisons</a
+                  >
+                </div>
+              </div>
+              <div class="pvu__mobile2-section">
+                <div class="pvu__mobile2-section-head">
+                  EXPLORE PATENTS DATA
+                </div>
+                <div>
+                  <a href="https://www.patentsview.org/web/#search&simp=1"
+                    >Simple Search</a
+                  >
+                  <a href="https://www.patentsview.org/web/#search"
+                    >Advanced Search</a
+                  >
+                </div>
+              </div>
+              <div class="pvu__mobile2-section">
+                <div class="pvu__mobile2-section-head">
+                  DATASETS
+                </div>
+                <div>
+                  <a href="https://www.patentsview.org/query">Query Builder</a>
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/query/data-dictionary"
+                    class="pvu__secondary-link"
+                    >Query Build Data Dictionary</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/query/builder-faqs"
+                    class="pvu__secondary-link"
+                    >Query Builder FAQs</a
+                  >
+                  <a href="https://www.patentsview.org/download"
+                    >Data Download Tables</a
+                  >
+                  <a
+                    href="https://s3.amazonaws.com/data.patentsview.org/documents/Patents_DB_dictionary_bulk_downloads.xlsx"
+                    class="pvu__secondary-link"
+                    >Data Download Data Dictionary</a
+                  >
+                </div>
+              </div>
+              <div class="pvu__mobile2-section">
+                <div class="pvu__mobile2-section-head">
+                  APIs
+                </div>
+                <div>
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/apis/purpose"
+                    >Purpose</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/apis/api-faqs"
+                    >API FAQs</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/apis/api-query-language"
+                    >API Query Language</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/apis/api-endpoints"
+                    >API Endpoints</a
+                  >
+                </div>
+              </div>
+              <div class="pvu__mobile2-section secondary-links">
+                <div class="pvu__mobile2-section-head">
+                  ABOUT
+                </div>
+                <div>
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/what-is-patentsview"
+                    >What Is PatentsView</a
+                  >
+                  <a href="https://patentsviewcommunity.int.air.org/glossary"
+                    >Glossary</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/about/terms-privacy"
+                    >Terms of Use and Privacy</a
+                  >
+                </div>
+              </div>
+              <div class="pvu__mobile2-section secondary-links">
+                <div class="pvu__mobile2-section-head">
+                  METHODS & SOURCES
+                </div>
+                <div>
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/disambiguation"
+                    >Disambiguition</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/gender-attribution"
+                    >Gender Attributes</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/government-interest"
+                    >Government Interests</a
+                  >
+                </div>
+              </div>
+              <div class="pvu__mobile2-section secondary-links">
+                <div class="pvu__mobile2-section-head">
+                  COMMUNITY
+                </div>
+                <div>
+                  <a href="https://patentsviewcommunity.int.air.org/welcome"
+                    >Welcome</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/rules-of-conduct"
+                    class="pvu__secondary-link"
+                    >Rules of Conduct</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/events"
+                    class="pvu__secondary-link"
+                    >Events and Workshops</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/contact"
+                    class="pvu__secondary-link"
+                    >Contact Us</a
+                  >
+                  <a href="https://patentsviewcommunity.int.air.org/forum"
+                    >Forum</a
+                  >
+                  <a
+                    href="https://patentsviewcommunity.int.air.org/data-in-action"
+                    >Data Spotlight</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -256,6 +481,8 @@ export default {
     return {
       pv_logo,
       scrollPosY: 0,
+      mobile1menu: false,
+      mobile2menu: false,
     };
   },
   mounted() {
@@ -311,15 +538,15 @@ export default {
 }
 .pvu__logo img {
   max-width: 221px;
-  animation-duration: 200ms;
-  animation-name: shrink-back;
+  /* animation-duration: 200ms;
+  animation-name: shrink-back; */
 }
 .longer-second-row .pvu__logo img {
   max-width: 120px;
-  animation-duration: 200ms;
-  animation-name: shrink;
+  /* animation-duration: 200ms;
+  animation-name: shrink; */
 }
-@keyframes shrink {
+/* @keyframes shrink {
   from {
     max-width: 221px;
   }
@@ -334,7 +561,7 @@ export default {
   to {
     max-width: 221px;
   }
-}
+} */
 
 .pvu__desktop {
   float: right;
@@ -352,22 +579,22 @@ export default {
 .desktop1 {
   max-width: 380px;
 }
-@media (max-width: 930px) {
+@media (max-width: 950px) {
   .desktop2 {
     display: none;
   }
 }
 .desktop2 {
   max-width: 600px;
-  animation-duration: 200ms;
-  animation-name: expand-back;
+  /* animation-duration: 200ms;
+  animation-name: expand-back; */
 }
 .longer-second-row .desktop2 {
   max-width: 750px;
-  animation-duration: 200ms;
-  animation-name: expand;
+  /* animation-duration: 200ms;
+  animation-name: expand; */
 }
-@keyframes expand {
+/* @keyframes expand {
   from {
     max-width: 600px;
   }
@@ -382,7 +609,7 @@ export default {
   to {
     max-width: 600px;
   }
-}
+} */
 
 .pvu__header-links {
   display: flex;
@@ -393,8 +620,8 @@ export default {
   line-height: 24px;
   font-size: 14px;
   cursor: default;
-  animation-duration: 200ms;
-  animation-name: shrink-font-back;
+  /* animation-duration: 200ms;
+  animation-name: shrink-font-back; */
 }
 .header-links1 {
   color: #7c8c9f;
@@ -404,10 +631,10 @@ export default {
 }
 .longer-second-row .pvu__header-links {
   font-size: 12px;
-  animation-duration: 200ms;
-  animation-name: shrink-font;
+  /* animation-duration: 200ms;
+  animation-name: shrink-font; */
 }
-@keyframes shrink-font {
+/* @keyframes shrink-font {
   from {
     font-size: 14px;
   }
@@ -422,18 +649,18 @@ export default {
   to {
     font-size: 14px;
   }
-}
+} */
 
 .secondary-links {
   display: none;
-  animation-duration: 200ms;
+  /* animation-duration: 200ms; */
 }
 .longer-second-row .secondary-links {
   display: flex;
-  animation-duration: 200ms;
-  animation-name: shift;
+  /* animation-duration: 200ms;
+  animation-name: shift; */
 }
-@keyframes shift {
+/* @keyframes shift {
   from {
     transform: translateX(-150px);
     display: none;
@@ -442,7 +669,7 @@ export default {
     transform: translateX(0);
     display: flex;
   }
-}
+} */
 
 .pvu__link-text {
   padding: 0 20px;
@@ -543,9 +770,110 @@ a.pvu__secondary-link {
     display: flex;
   }
 }
-@media (max-width: 930px) {
+@media (max-width: 950px) {
   .mobile2 {
     display: flex;
   }
+}
+
+.pvu__mobile1-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  cursor: default;
+  font-size: 14px;
+}
+
+.pvu__mobile1-menu .pvu__secondary-link {
+  padding-left: 40px;
+}
+
+.pvu__mobile1-menu a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.pvu__mobile1-menu a:hover {
+  background-color: #444444;
+}
+
+.pvu__mobile1-section {
+  margin: 20px 0;
+}
+
+.pvu__mobile1-section-head {
+  font-weight: bold;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.pvu__mobile1-close {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.pvu__mobile1-close span {
+  cursor: pointer;
+}
+
+.pvu__mobile2-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f5e095;
+  width: 100%;
+  cursor: default;
+  font-size: 14px;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+.pvu__mobile2-grid {
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, max-content));
+  gap: 20px;
+}
+
+.pvu__mobile2-menu a {
+  text-decoration: none;
+  color: #444444;
+  display: block;
+  margin: 5px 0;
+}
+
+.pvu__mobile2-menu a:hover {
+  background-color: #f1d673;
+  color: black;
+}
+
+.longer-second-row .pvu__mobile2-menu .secondary-links {
+  display: block;
+}
+
+.pvu__mobile2-section-head {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pvu__mobile2-close {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.pvu__mobile2-close span {
+  cursor: pointer;
 }
 </style>

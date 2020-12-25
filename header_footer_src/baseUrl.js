@@ -1,21 +1,26 @@
-const hostname = window.location.hostname;
-
-let baseUrl = "";
-switch (hostname) {
-  case "localhost":
-    baseUrl = "";
-    break;
-  case "dev.patentsview.org":
-    baseUrl = "https://dev.patentsview.org";
-    break;
-  case "www.patentsview.org":
-    baseUrl = "https://www.patentsview.org";
-    break;
-  case "api.patentsview.org":
-    baseUrl = "https://www.patentsview.org";
-    break;
-  default:
-    console.log("Unknown hostname.");
+export default function baseUrl(hostname) {
+  if (
+    hostname === "patentsviewcommunity.int.air.org" ||
+    hostname === "dev.patentsview.org"
+  ) {
+    return {
+      community: "https://patentsviewcommunity.int.air.org",
+      pv: "https://dev.patentsview.org",
+    };
+  } else if (
+    hostname === "community.patentsview.org" ||
+    hostname === "www.patentsview.org"
+  ) {
+    return {
+      community: "https://community.patentsview.org",
+      pv: "https://www.patentsview.org",
+    };
+  } else {
+    const arr = window.location.href.split("/");
+    const url = arr[0] + "//" + arr[2];
+    return {
+      community: url,
+      pv: url,
+    };
+  }
 }
-
-export default baseUrl;

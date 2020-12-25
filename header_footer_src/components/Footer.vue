@@ -2,7 +2,7 @@
   <div class="pvu__footer">
     <div class="pvu__footer-main">
       <div class="pvu__footer-col pvu__footer-left">
-        <a href="https://patentsviewcommunity.int.air.org/what-is-patentsview"
+        <a :href="communityBaseUrl + '/what-is-patentsview'"
           >THIS INITIATIVE ></a
         >
         <p>
@@ -10,9 +10,7 @@
           Office (USPTO) bulk data files. These data are provided for research
           purposes and do not constitute the official USPTO record...
         </p>
-        <a href="https://patentsviewcommunity.int.air.org/rules-of-conduct"
-          >TERMS & SERVICES ></a
-        >
+        <a :href="communityBaseUrl + '/rules-of-conduct'">TERMS & SERVICES ></a>
         <p>
           Users are free to use, share, or adapt the material for any purpose,
           subject to the standards of the Creative Commons Attribution 4.0
@@ -41,12 +39,14 @@
 <script>
 import cc_logo from "../img/creative-commons.png";
 import uspto_logo from "../img/uspto.png";
+import baseUrl from "../baseUrl.js";
 
 export default {
   data() {
     return {
       cc_logo,
       uspto_logo,
+      communityBaseUrl: baseUrl(window.location.hostname).community,
     };
   },
 };

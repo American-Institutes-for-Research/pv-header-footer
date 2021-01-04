@@ -1,10 +1,4 @@
 {
-    "name": "pv-api-footer",
-    "version": "1.0.0",
-    "description": "footer component for PV API pages",
-    "keywords": [],
-    "author": "Hanlun Song",
-    "license": "MIT",
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack --mode=development --watch",
         "build": "cross-env NODE_ENV=production webpack --mode=production"

@@ -433,7 +433,7 @@ export default {
 }
 
 .pvu__header .pvu__header-menu {
-  max-width: 960px;
+  max-width: 1020px;
   padding: 0 30px;
   margin: 0 auto;
 }

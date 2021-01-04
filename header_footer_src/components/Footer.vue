@@ -68,7 +68,7 @@ export default {
 
 .pvu__footer-main {
   margin: auto;
-  max-width: 960px;
+  max-width: 1020px;
   padding: 35px 30px;
   display: flex;
 }

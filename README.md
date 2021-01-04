@@ -2,13 +2,9 @@
 
 For dynamically appending header and footer.
 
-The build `/header_footer.js` is deployed via [jsDelivr](https://www.jsdelivr.com/), available at [https://cdn.jsdelivr.net/gh/PatentsView/pv-header-footer/header_footer.js](https://cdn.jsdelivr.net/gh/PatentsView/pv-header-footer/header_footer.js).
+The production build `/dist.js` is deployed via [jsDelivr](https://www.jsdelivr.com/), available at [https://cdn.jsdelivr.net/gh/PatentsView/pv-header-footer/dist.js](https://cdn.jsdelivr.net/gh/PatentsView/pv-header-footer/dist.js).
 
-Used in:
-
-- https://github.com/CSSIP-AIR/-PatentsView-Query
-- https://github.com/CSSIP-AIR/PatentsView-API
-- https://github.com/American-Institutes-for-Research/PatentsView-Downloads
+The script can then be placed at the end of the page body to render the header and footer.
 
 ```bash
 # Install dependencies

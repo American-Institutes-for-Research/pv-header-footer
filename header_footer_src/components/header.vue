@@ -425,6 +425,7 @@ export default {
   position: sticky;
   position: -webkit-sticky;
   top: -45px;
+  z-index: 999;
 }
 
 .pvu__header .pvu__header-first {

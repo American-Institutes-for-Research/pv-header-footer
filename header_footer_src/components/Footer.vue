@@ -63,6 +63,7 @@ export default {
 
 .pvu__footer {
   background-color: #4f5f6f;
+  z-index: 999;
 }
 
 .pvu__footer-main {

@@ -785,6 +785,7 @@ a.pvu__secondary-link {
 .pvu__mobile2-section-head {
   font-weight: bold;
   margin-bottom: 10px;
+  color: #5d5d5d;
 }
 
 .pvu__mobile2-close {

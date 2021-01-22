@@ -436,6 +436,7 @@ export default {
   max-width: 930px;
   padding: 0 30px;
   margin: 0 auto;
+  box-sizing: content-box;
 }
 
 .pvu__header-first .pvu__header-menu {

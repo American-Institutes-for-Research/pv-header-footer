@@ -71,6 +71,7 @@ export default {
   max-width: 930px;
   padding: 35px 30px;
   display: flex;
+  box-sizing: content-box;
 }
 
 .pvu__footer-col {

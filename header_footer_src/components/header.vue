@@ -408,6 +408,7 @@ export default {
     window.addEventListener("scroll", () => {
       this.scrollPosY = window.scrollY;
     });
+    document.body.style.height = "auto";
   },
 };
 </script>

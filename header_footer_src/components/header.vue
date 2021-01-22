@@ -798,5 +798,6 @@ a.pvu__secondary-link {
 
 .pvu__mobile2-close span {
   cursor: pointer;
+  color: #5d5d5d;
 }
 </style>

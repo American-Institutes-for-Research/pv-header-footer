@@ -2,35 +2,43 @@
   <div class="pvu__footer">
     <div class="pvu__footer-main">
       <div class="pvu__footer-col pvu__footer-left">
+        <a :href="communityBaseUrl + '/what-is-patentsview'"
+          >THIS INITIATIVE ></a
+        >
+        <p>
+          This platform uses data derived from the US Patent and Trademark
+          Office (USPTO) bulk data files. These data are provided for research
+          purposes and do not constitute the official USPTO record...
+        </p>
+        <a :href="communityBaseUrl + '/rules-of-conduct'">TERMS & SERVICES ></a>
+        <p>
+          Users are free to use, share, or adapt the material for any purpose,
+          subject to the standards of the Creative Commons Attribution 4.0
+          International License...
+        </p>
         <div class="pvu__footer-logos">
-          <img
-            :src="uspto_logo"
-            alt="logo of the united states patent and trademark office"
-          />
-          <img :src="cc_logo" alt="logo of creative commons" />
+          <a href="https://www.uspto.gov/" target="_blank"
+            ><img :src="uspto_logo" alt="logo of USPTO"
+          /></a>
+          <a href="https://creativecommons.org/" target="_blank"
+            ><img :src="cc_logo" alt="logo of Creative Commons"
+          /></a>
         </div>
-        <p>2021 2020 PatentsView All Rights Reserved</p>
       </div>
       <div class="pvu__footer-col pvu__footer-right">
-        <div>
-          <p>Contact Us</p>
-          <a :href="baseUrl + '/forum'">Community Forum</a>
-          <a :href="baseUrl + '/email'">Email Us</a>
-          <a :href="baseUrl + '/newsletter'">Join our Newsletter</a>
-        </div>
-        <div>
-          <p>Terms of Use</p>
-          <a :href="baseUrl + '/terms'">Terms & Services</a>
-          <a :href="baseUrl + '/rules'">Community Rules of Conduct</a>
-        </div>
+        <form class="pvu__email-form">
+          <p>Join our mailing list to get the latest updates</p>
+          <input type="text" placeholder="Email" />
+          <button>Join</button>
+        </form>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import cc_logo from "../img/cc.logo.png";
-import uspto_logo from "../img/uspto-logo.png";
+import cc_logo from "../img/creative-commons.png";
+import uspto_logo from "../img/uspto.png";
 import baseUrl from "../baseUrl.js";
 
 export default {
@@ -61,77 +69,17 @@ export default {
 .pvu__footer-main {
   margin: auto;
   max-width: 930px;
-  padding: 30px;
+  padding: 35px 30px;
   display: flex;
   box-sizing: content-box;
 }
 
-/* .pvu__footer-col {
+.pvu__footer-col {
   width: 50%;
-} */
+}
 
 .pvu__footer-left {
   padding-right: 20px;
-  border-right: 1px solid #fff;
-  padding: 0 30px 0 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-@media (max-width: 865px) {
-  .pvu__footer-main {
-    display: block;
-  }
-
-  .pvu__footer-left {
-    border-right: none;
-  }
-}
-
-.pvu__footer-right {
-  flex: 1;
-  padding: 0 0 0 15px;
-}
-
-.pvu__footer-right div {
-  display: flex;
-  align-items: center;
-}
-
-.pvu__footer-right p {
-  font-size: 20px;
-  line-height: 22px;
-  color: #f0d569;
-}
-
-.pvu__footer-right a {
-  display: block;
-  font-size: 14px;
-  line-height: 22px;
-  color: #fffff0;
-  border-left: 1px solid white;
-  padding-left: 15px;
-  margin-left: 15px;
-  text-decoration: none;
-}
-
-@media (max-width: 685px) {
-  .pvu__footer-right div {
-    display: block;
-  }
-  .pvu__footer-right a {
-    margin-left: 0;
-  }
-}
-
-.pvu__footer-right a:hover {
-  text-decoration: underline;
-}
-
-.pvu__footer-logos img {
-  display: block;
-  max-width: 115px;
 }
 
 @media (max-width: 550px) {
@@ -164,8 +112,8 @@ export default {
 
 .pvu__footer-left p {
   color: white;
-  margin-top: 15px;
-  font-size: 13px;
+  margin-top: 0;
+  font-size: 14px;
   line-height: 24px;
 }
 

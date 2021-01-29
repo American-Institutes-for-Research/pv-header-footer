@@ -20,7 +20,7 @@
           </div>
           <div class="pvu__header-links header-links1">
             <div class="pvu__link-text link-text1">
-              Methods & Srouces
+              Methods & Sources
             </div>
             <div class="pvu__link-menu link-menu1">
               <a :href="communityBaseUrl + '/disambiguation'">Disambiguition</a>
@@ -84,7 +84,7 @@
             </div>
             <div class="pvu__mobile1-section">
               <div class="pvu__mobile1-section-head">
-                Methods & Srouces
+                Methods & Sources
               </div>
               <div>
                 <a :href="communityBaseUrl + '/disambiguation'"

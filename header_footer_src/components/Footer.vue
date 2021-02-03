@@ -9,7 +9,7 @@
           />
           <img :src="cc_logo" alt="logo of creative commons" />
         </div>
-        <p>2021 2020 PatentsView All Rights Reserved</p>
+        <p>@2021 PatentsView All Rights Reserved</p>
       </div>
       <div class="pvu__footer-col pvu__footer-right">
         <div>
@@ -92,6 +92,9 @@ export default {
 .pvu__footer-right {
   flex: 1;
   padding: 0 0 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .pvu__footer-right div {

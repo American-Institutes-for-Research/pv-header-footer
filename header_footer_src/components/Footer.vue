@@ -14,14 +14,14 @@
       <div class="pvu__footer-col pvu__footer-right">
         <div>
           <p>Contact Us</p>
-          <a :href="baseUrl + '/forum'">Community Forum</a>
-          <a :href="baseUrl + '/email'">Email Us</a>
-          <a :href="baseUrl + '/newsletter'">Join our Newsletter</a>
+          <a :href="communityBaseUrl + '/forum'">Community Forum</a>
+          <a :href="communityBaseUrl + '/email'">Email Us</a>
+          <a :href="communityBaseUrl + '/newsletter'">Join our Newsletter</a>
         </div>
         <div>
           <p>Terms of Use</p>
-          <a :href="baseUrl + '/terms'">Terms & Services</a>
-          <a :href="baseUrl + '/rules'">Community Rules of Conduct</a>
+          <a :href="communityBaseUrl + '/terms'">Terms & Services</a>
+          <a :href="communityBaseUrl + '/rules'">Community Rules of Conduct</a>
         </div>
       </div>
     </div>
@@ -38,6 +38,7 @@ export default {
     return {
       cc_logo,
       uspto_logo,
+      pvBaseUrl: baseUrl(window.location.hostname).pv,
       communityBaseUrl: baseUrl(window.location.hostname).community,
     };
   },
@@ -117,6 +118,9 @@ export default {
   padding-left: 15px;
   margin-left: 15px;
   text-decoration: none;
+}
+.pvu__footer-right a:first-of-type {
+  border-left: none;
 }
 
 @media (max-width: 685px) {

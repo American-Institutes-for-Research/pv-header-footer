@@ -23,18 +23,12 @@
               Methods & Sources
             </div>
             <div class="pvu__link-menu link-menu1">
-              <a :href="communityBaseUrl + '/disambiguation'">Disambiguation</a>
+              <a :href="communityBaseUrl + '/disambiguation'">Disambiguition</a>
               <a :href="communityBaseUrl + '/gender-attribution'"
-                >Gender Attribution</a
+                >Gender Attributes</a
               >
               <a :href="communityBaseUrl + '/government-interest'"
-                >Government Interest</a
-              >
-              <a :href="communityBaseUrl + '/methods/data_pipeline'"
-                >Data Pipeline</a
-              >
-              <a :href="communityBaseUrl + '/methods/classification'"
-                >Patent Classes & Technologies</a
+                >Government Interests</a
               >
             </div>
           </div>
@@ -55,20 +49,12 @@
                 >Events and Workshops</a
               >
               <a
-                :href="communityBaseUrl + '/entityres'"
-                class="pvu__thirdlevel-link"
-                >USPTO Symposium on Entity Resolution</a
-              >
-              <a
                 :href="communityBaseUrl + '/contact'"
                 class="pvu__secondary-link"
                 >Contact Us</a
               >
               <a :href="communityBaseUrl + '/forum'">Forum</a>
               <a :href="communityBaseUrl + '/data-in-action'">Data Spotlight</a>
-              <a :href="communityBaseUrl + '/gender-and-innovation'"
-                >Gender & Innovation</a
-              >
             </div>
           </div>
         </div>
@@ -102,19 +88,13 @@
               </div>
               <div>
                 <a :href="communityBaseUrl + '/disambiguation'"
-                  >Disambiguation</a
+                  >Disambiguition</a
                 >
                 <a :href="communityBaseUrl + '/gender-attribution'"
-                  >Gender Attribution</a
+                  >Gender Attributes</a
                 >
                 <a :href="communityBaseUrl + '/government-interest'"
-                  >Government Interest</a
-                >
-                <a :href="communityBaseUrl + '/methods/data_pipeline'"
-                  >Data Pipeline</a
-                >
-                <a :href="communityBaseUrl + '/methods/classification'"
-                  >Patent Classes & Technologies</a
+                  >Government Interests</a
                 >
               </div>
             </div>
@@ -135,11 +115,6 @@
                   >Events and Workshops</a
                 >
                 <a
-                  :href="communityBaseUrl + '/entityres'"
-                  class="pvu__thirdlevel-link"
-                  >USPTO Symposium on Entity Resolution</a
-                >
-                <a
                   :href="communityBaseUrl + '/contact'"
                   class="pvu__secondary-link"
                   >Contact Us</a
@@ -147,9 +122,6 @@
                 <a :href="communityBaseUrl + '/forum'">Forum</a>
                 <a :href="communityBaseUrl + '/data-in-action'"
                   >Data Spotlight</a
-                >
-                <a :href="communityBaseUrl + '/gender-and-innovation'"
-                  >Gender & Innovation</a
                 >
               </div>
             </div>
@@ -166,7 +138,6 @@
         <a :href="pvBaseUrl + '/'">
           <div class="pvu__logo">
             <img :src="pv_logo" alt="Logo: USPTO PatentsView" />
-            <p class="pvu__logo-text">Learn About Patents Around the World</p>
           </div>
         </a>
         <div class="pvu__desktop desktop2">
@@ -207,7 +178,7 @@
               >
               <a :href="pvBaseUrl + '/download'">Data Download Tables</a>
               <a
-                :href="communityBaseUrl + '/download/data-download-dictionary'"
+                href="https://s3.amazonaws.com/data.patentsview.org/documents/Patents_DB_dictionary_bulk_downloads.xlsx"
                 class="pvu__secondary-link"
                 >Data Download Data Dictionary</a
               >
@@ -247,18 +218,12 @@
               METHODS & SOURCES
             </div>
             <div class="pvu__link-menu link-menu2">
-              <a :href="communityBaseUrl + '/disambiguation'">Disambiguation</a>
+              <a :href="communityBaseUrl + '/disambiguation'">Disambiguition</a>
               <a :href="communityBaseUrl + '/gender-attribution'"
-                >Gender Attribution</a
+                >Gender Attributes</a
               >
               <a :href="communityBaseUrl + '/government-interest'"
-                >Government Interest</a
-              >
-              <a :href="communityBaseUrl + '/methods/data_pipeline'"
-                >Data Pipeline</a
-              >
-              <a :href="communityBaseUrl + '/methods/classification'"
-                >Patent Classes & Technologies</a
+                >Government Interests</a
               >
             </div>
           </div>
@@ -279,20 +244,12 @@
                 >Events and Workshops</a
               >
               <a
-                :href="communityBaseUrl + '/entityres'"
-                class="pvu__thirdlevel-link"
-                >USPTO Symposium on Entity Resolution</a
-              >
-              <a
                 :href="communityBaseUrl + '/contact'"
                 class="pvu__secondary-link"
                 >Contact Us</a
               >
               <a :href="communityBaseUrl + '/forum'">Forum</a>
               <a :href="communityBaseUrl + '/data-in-action'">Data Spotlight</a>
-              <a :href="communityBaseUrl + '/gender-and-innovation'"
-                >Gender & Innovation</a
-              >
             </div>
           </div>
         </div>
@@ -346,9 +303,7 @@
                   >
                   <a :href="pvBaseUrl + '/download'">Data Download Tables</a>
                   <a
-                    :href="
-                      communityBaseUrl + '/download/data-download-dictionary'
-                    "
+                    href="https://s3.amazonaws.com/data.patentsview.org/documents/Patents_DB_dictionary_bulk_downloads.xlsx"
                     class="pvu__secondary-link"
                     >Data Download Data Dictionary</a
                   >
@@ -389,19 +344,13 @@
                 </div>
                 <div>
                   <a :href="communityBaseUrl + '/disambiguation'"
-                    >Disambiguation</a
+                    >Disambiguition</a
                   >
                   <a :href="communityBaseUrl + '/gender-attribution'"
-                    >Gender Attribution</a
+                    >Gender Attributes</a
                   >
                   <a :href="communityBaseUrl + '/government-interest'"
-                    >Government Interest</a
-                  >
-                  <a :href="communityBaseUrl + '/methods/data_pipeline'"
-                    >Data Pipeline</a
-                  >
-                  <a :href="communityBaseUrl + '/methods/classification'"
-                    >Patent Classes & Technologies</a
+                    >Government Interests</a
                   >
                 </div>
               </div>
@@ -422,11 +371,6 @@
                     >Events and Workshops</a
                   >
                   <a
-                    :href="communityBaseUrl + '/entityres'"
-                    class="pvu__thirdlevel-link"
-                    >USPTO Symposium on Entity Resolution</a
-                  >
-                  <a
                     :href="communityBaseUrl + '/contact'"
                     class="pvu__secondary-link"
                     >Contact Us</a
@@ -434,9 +378,6 @@
                   <a :href="communityBaseUrl + '/forum'">Forum</a>
                   <a :href="communityBaseUrl + '/data-in-action'"
                     >Data Spotlight</a
-                  >
-                  <a :href="communityBaseUrl + '/gender-and-innovation'"
-                    >Gender & Innovation</a
                   >
                 </div>
               </div>
@@ -489,7 +430,7 @@ export default {
 }
 
 .pvu__header .pvu__header-first {
-  background-color: #4f5f6f;
+  background-color: #d0dded;
 }
 
 .pvu__header .pvu__header-menu {
@@ -500,7 +441,7 @@ export default {
 }
 
 .pvu__header-first .pvu__header-menu {
-  height: 41px;
+  height: 45px;
 }
 
 .pvu__header .pvu__header-second {
@@ -508,42 +449,24 @@ export default {
 }
 
 .pvu__header-second .pvu__header-menu {
-  height: 65px;
+  height: 70px;
 }
 
 .pvu__logo {
   float: left;
   height: 100%;
   display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  transform: translateY(-20px);
-}
-.longer-second-row .pvu__logo {
-  transform: unset;
+  align-items: center;
 }
 .pvu__logo img {
-  max-width: 284px;
-  display: block;
+  max-width: 221px;
   /* animation-duration: 200ms;
   animation-name: shrink-back; */
 }
-.pvu__header-menu.longer-second-row {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
 .longer-second-row .pvu__logo img {
-  max-width: 166px;
+  max-width: 120px;
   /* animation-duration: 200ms;
   animation-name: shrink; */
-}
-.pvu__logo-text {
-  font-size: 14px;
-  color: #fff;
-  font-style: italic;
-  font-weight: bold;
-  margin: 0;
 }
 /* @keyframes shrink {
   from {
@@ -570,7 +493,7 @@ export default {
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 720px) {
+@media (max-width: 475px) {
   .desktop1 {
     display: none;
   }
@@ -584,12 +507,12 @@ export default {
   }
 }
 .desktop2 {
-  max-width: 575px;
+  max-width: 600px;
   /* animation-duration: 200ms;
   animation-name: expand-back; */
 }
 .longer-second-row .desktop2 {
-  max-width: 670px;
+  max-width: 750px;
   /* animation-duration: 200ms;
   animation-name: expand; */
 }
@@ -623,13 +546,13 @@ export default {
   animation-name: shrink-font-back; */
 }
 .header-links1 {
-  color: white;
+  color: #7c8c9f;
 }
 .header-links2 {
   color: #f1d673;
 }
 .longer-second-row .pvu__header-links {
-  font-size: 11px;
+  font-size: 12px;
   /* animation-duration: 200ms;
   animation-name: shrink-font; */
 }
@@ -673,9 +596,6 @@ export default {
 .pvu__link-text {
   padding: 0 20px;
 }
-.pvu__link-text:hover {
-  background-color: red;
-}
 .longer-second-row .pvu__link-text {
   padding: 0 10px;
 }
@@ -688,14 +608,14 @@ export default {
   padding: 10px 0;
 }
 .link-menu1 {
-  top: 41px;
+  top: 45px;
   background-color: black;
 }
 .link-menu1 a {
   color: white;
 }
 .link-menu2 {
-  top: 65px;
+  top: 70px;
   background-color: #f5e095;
 }
 .link-menu2 a {
@@ -722,20 +642,12 @@ export default {
 a.pvu__secondary-link {
   padding-left: 40px;
 }
-a.pvu__thirdlevel-link {
-  padding-left: 60px;
-}
 
 .pvu__header-links:hover .pvu__link-text {
   height: 100%;
   display: flex;
   align-items: center;
 }
-
-.link-text1 {
-  margin-top: 10px;
-}
-
 .pvu__header-links:hover .link-text1 {
   background-color: black;
   color: white;
@@ -758,7 +670,7 @@ a.pvu__thirdlevel-link {
   display: block;
 }
 .mobile1 .pvu__bars span {
-  background-color: white;
+  background-color: #4f5f6f;
 }
 .mobile2 .pvu__bars span {
   background-color: white;
@@ -775,7 +687,7 @@ a.pvu__thirdlevel-link {
   align-items: center;
   cursor: pointer;
 }
-@media (max-width: 720px) {
+@media (max-width: 475px) {
   .mobile1 {
     display: flex;
   }
@@ -796,7 +708,6 @@ a.pvu__thirdlevel-link {
   padding: 20px 0;
   cursor: default;
   font-size: 14px;
-  z-index: 1;
 }
 
 .pvu__mobile1-menu .pvu__secondary-link {

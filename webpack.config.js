@@ -9,7 +9,7 @@ const config = {
       process.env.NODE_ENV === "production" ? "" : "/dev"
     }`,
     filename:
-      process.env.NODE_ENV === "production" ? "dist.js" : "header_footer.js",
+      process.env.NODE_ENV === "production" ? "build.js" : "header_footer.js",
   },
   module: {
     rules: [

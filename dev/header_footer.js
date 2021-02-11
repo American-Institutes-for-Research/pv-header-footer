@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return baseUrl; });\nfunction baseUrl(hostname) {\n  if (hostname === \"www.patentsview.org\") {\n    return {\n      community: \"https://community.patentsview.org\",\n      pv: \"https://www.patentsview.org\"\n    };\n  } else {\n    return {\n      community: \"https://patentsviewcommunity.int.air.org\",\n      pv: \"https://dev.patentsview.org\"\n    };\n  }\n}\n\n//# sourceURL=webpack:///./header_footer_src/baseUrl.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return baseUrl; });\nfunction baseUrl(hostname) {\n  if (hostname === \"www.patentsview.org\") {\n    return {\n      community: \"https://community.patentsview.org\",\n      pv: \"https://www.patentsview.org\"\n    };\n  } else {\n    return {\n      community: \"https://patentsviewcommunity.uat.air.org\",\n      pv: \"https://dev.patentsview.org\"\n    };\n  }\n}\n\n//# sourceURL=webpack:///./header_footer_src/baseUrl.js?");
 
 /***/ }),
 

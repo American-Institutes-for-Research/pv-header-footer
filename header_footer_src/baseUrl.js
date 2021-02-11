@@ -6,7 +6,7 @@ export default function baseUrl(hostname) {
     };
   } else {
     return {
-      community: "https://patentsviewcommunity.int.air.org",
+      community: "https://patentsviewcommunity.uat.air.org",
       pv: "https://dev.patentsview.org",
     };
   }

@@ -11,11 +11,10 @@ The script can then be placed at the end of the page body to render the header a
 npm install
 
 # Development
-## open or serve `/dev/index.html`
-cd dev
-npx live-server
-## dev mode
+## Compile and watch for DEV
 npm run dev
+## Auto reload live server
+npm run serve
 
 # Production build
 npm run build

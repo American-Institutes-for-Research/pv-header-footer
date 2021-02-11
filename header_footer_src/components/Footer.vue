@@ -107,6 +107,8 @@ export default {
   font-size: 20px;
   line-height: 22px;
   color: #f0d569;
+  font-style: unset;
+  font-weight: normal;
 }
 
 .pvu__footer-right a {
@@ -174,6 +176,8 @@ export default {
   margin-top: 15px;
   font-size: 13px;
   line-height: 24px;
+  font-style: unset;
+  font-weight: normal;
 }
 
 .pvu__footer-logos {

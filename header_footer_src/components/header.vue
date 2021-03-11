@@ -215,7 +215,7 @@
           </div>
           <div class="pvu__header-links header-links2">
             <div class="pvu__link-text link-text2">
-              APIs
+              API
             </div>
             <div class="pvu__link-menu link-menu2">
               <a :href="communityBaseUrl + '/apis/purpose'">Purpose</a>
@@ -225,6 +225,16 @@
               >
               <a :href="communityBaseUrl + '/apis/api-endpoints'"
                 >API Endpoints</a
+              >
+            </div>
+          </div>
+          <div class="pvu__header-links header-links2">
+            <div class="pvu__link-text link-text2">
+              TOPICS
+            </div>
+            <div class="pvu__link-menu link-menu2">
+              <a :href="communityBaseUrl + '/gender-and-innovation'"
+                >Gender & Innovation</a
               >
             </div>
           </div>
@@ -356,7 +366,7 @@
               </div>
               <div class="pvu__mobile2-section">
                 <div class="pvu__mobile2-section-head">
-                  APIs
+                  API
                 </div>
                 <div>
                   <a :href="communityBaseUrl + '/apis/purpose'">Purpose</a>
@@ -366,6 +376,16 @@
                   >
                   <a :href="communityBaseUrl + '/apis/api-endpoints'"
                     >API Endpoints</a
+                  >
+                </div>
+              </div>
+              <div class="pvu__mobile2-section">
+                <div class="pvu__mobile2-section-head">
+                  TOPICS
+                </div>
+                <div>
+                  <a :href="communityBaseUrl + '/gender-and-innovation'"
+                    >Gender & Innovation</a
                   >
                 </div>
               </div>
@@ -539,7 +559,7 @@ export default {
   animation-name: shrink; */
 }
 .pvu__logo-text {
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
   font-style: italic;
   font-weight: bold;
@@ -578,18 +598,18 @@ export default {
 .desktop1 {
   max-width: 380px;
 }
-@media (max-width: 950px) {
+@media (max-width: 990px) {
   .desktop2 {
     display: none;
   }
 }
 .desktop2 {
-  max-width: 575px;
+  max-width: 640px;
   /* animation-duration: 200ms;
   animation-name: expand-back; */
 }
 .longer-second-row .desktop2 {
-  max-width: 670px;
+  max-width: 700px;
   /* animation-duration: 200ms;
   animation-name: expand; */
 }
@@ -629,7 +649,7 @@ export default {
   color: #f1d673;
 }
 .longer-second-row .pvu__header-links {
-  font-size: 11px;
+  font-size: 10px;
   /* animation-duration: 200ms;
   animation-name: shrink-font; */
 }
@@ -780,7 +800,7 @@ a.pvu__thirdlevel-link {
     display: flex;
   }
 }
-@media (max-width: 950px) {
+@media (max-width: 990px) {
   .mobile2 {
     display: flex;
   }

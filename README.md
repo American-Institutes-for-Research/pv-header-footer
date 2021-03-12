@@ -1,10 +1,10 @@
 # Header and Footer Script
 
-For dynamically appending header and footer.
+For dynamically appending header and footer for the PV non-Drupal site.
 
-The production build `/build.js` should be copied and named as `dist-[YEAR]-[MONTH]-[DATE]-[number].js`. It is then deployed via [jsDelivr](https://www.jsdelivr.com/), available at `https://cdn.jsdelivr.net/gh/PatentsView/pv-header-footer/dist-[YEAR]-[MONTH]-[DATE]-[number].js`.
+Build and rename the `build.js` file with the current deployed file's name, then replace the file.
 
-The script can then be placed at the end of the page body to render the header and footer.
+If the change needs to take immediate effect, the production build `/build.js` should be copied and named as `dist-[YEAR]-[MONTH]-[DATE]-[number].js` (a new file name) to bust the cache. It can then be deployed via [jsDelivr](https://www.jsdelivr.com/), available at `https://cdn.jsdelivr.net/gh/PatentsView/pv-header-footer/dist-[YEAR]-[MONTH]-[DATE]-[number].js`. The script tag can then need to be updated on the end of the page body for each page to render the header and footer.
 
 ```bash
 # Install dependencies

@@ -205,7 +205,9 @@
                 class="pvu__secondary-link"
                 >Query Builder FAQs</a
               >
-              <a :href="pvBaseUrl + '/download'">Data Download Tables</a>
+              <a :href="communityBaseUrl + '/download/data-download-tables'"
+                >Data Download Tables</a
+              >
               <a
                 :href="communityBaseUrl + '/download/data-download-dictionary'"
                 class="pvu__secondary-link"
@@ -354,7 +356,9 @@
                     class="pvu__secondary-link"
                     >Query Builder FAQs</a
                   >
-                  <a :href="pvBaseUrl + '/download'">Data Download Tables</a>
+                  <a :href="communityBaseUrl + '/download/data-download-tables'"
+                    >Data Download Tables</a
+                  >
                   <a
                     :href="
                       communityBaseUrl + '/download/data-download-dictionary'

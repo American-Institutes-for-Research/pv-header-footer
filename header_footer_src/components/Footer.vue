@@ -15,13 +15,15 @@
         <div>
           <p>Contact Us</p>
           <a :href="communityBaseUrl + '/forum'">Community Forum</a>
-          <a :href="communityBaseUrl + '/email'">Email Us</a>
+          <a :href="communityBaseUrl + '/contact'">Email Us</a>
           <a :href="communityBaseUrl + '/newsletter'">Join our Newsletter</a>
         </div>
         <div>
           <p>Terms of Use</p>
-          <a :href="communityBaseUrl + '/terms'">Terms & Services</a>
-          <a :href="communityBaseUrl + '/rules'">Community Rules of Conduct</a>
+          <a :href="communityBaseUrl + '/terms-privacy'">Terms & Services</a>
+          <a :href="communityBaseUrl + '/rules-of-conduct'"
+            >Community Rules of Conduct</a
+          >
         </div>
       </div>
     </div>

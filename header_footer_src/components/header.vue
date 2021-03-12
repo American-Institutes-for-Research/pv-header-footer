@@ -175,9 +175,9 @@
               DATA VISUALIZATION
             </div>
             <div class="pvu__link-menu link-menu2">
-              <a :href="pvBaseUrl + '/web/#viz/relationships'">Relationships</a>
-              <a :href="pvBaseUrl + '/web/#viz/locations'">Locations</a>
-              <a :href="pvBaseUrl + '/web/#viz/comparisons'">Comparisons</a>
+              <a :href="pvBaseUrl + '/#viz/relationships'">Relationships</a>
+              <a :href="pvBaseUrl + '/#viz/locations'">Locations</a>
+              <a :href="pvBaseUrl + '/#viz/comparisons'">Comparisons</a>
             </div>
           </div>
           <div class="pvu__header-links header-links2">
@@ -185,8 +185,8 @@
               EXPLORE PATENTS DATA
             </div>
             <div class="pvu__link-menu link-menu2">
-              <a :href="pvBaseUrl + '/web/#search&simp=1'">Simple Search</a>
-              <a :href="pvBaseUrl + '/web/#search'">Advanced Search</a>
+              <a :href="pvBaseUrl + '/#search&simp=1'">Simple Search</a>
+              <a :href="pvBaseUrl + '/#search'">Advanced Search</a>
             </div>
           </div>
           <div class="pvu__header-links header-links2">
@@ -324,11 +324,9 @@
                   DATA VISUALIZATION
                 </div>
                 <div>
-                  <a :href="pvBaseUrl + '/web/#viz/relationships'"
-                    >Relationships</a
-                  >
-                  <a :href="pvBaseUrl + '/web/#viz/locations'">Locations</a>
-                  <a :href="pvBaseUrl + '/web/#viz/comparisons'">Comparisons</a>
+                  <a :href="pvBaseUrl + '/#viz/relationships'">Relationships</a>
+                  <a :href="pvBaseUrl + '/#viz/locations'">Locations</a>
+                  <a :href="pvBaseUrl + '/#viz/comparisons'">Comparisons</a>
                 </div>
               </div>
               <div class="pvu__mobile2-section">
@@ -336,8 +334,8 @@
                   EXPLORE PATENTS DATA
                 </div>
                 <div>
-                  <a :href="pvBaseUrl + '/web/#search&simp=1'">Simple Search</a>
-                  <a :href="pvBaseUrl + '/web/#search'">Advanced Search</a>
+                  <a :href="pvBaseUrl + '/#search&simp=1'">Simple Search</a>
+                  <a :href="pvBaseUrl + '/#search'">Advanced Search</a>
                 </div>
               </div>
               <div class="pvu__mobile2-section">

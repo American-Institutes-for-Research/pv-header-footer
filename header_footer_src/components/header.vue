@@ -163,7 +163,7 @@
         class="pvu__header-menu"
         :class="this.scrollPosY > 45 ? 'longer-second-row' : null"
       >
-        <a :href="pvBaseUrl + '/'">
+        <a href="https://patentsview.org/">
           <div class="pvu__logo">
             <img :src="pv_logo" alt="Logo: USPTO PatentsView" />
             <p class="pvu__logo-text">Learn About Patents Around the World</p>
@@ -197,12 +197,12 @@
               <a :href="pvBaseUrl + '/query'">Query Builder</a>
               <a
                 :href="communityBaseUrl + '/query/data-dictionary'"
-                class="pvu__secondary-link"
+                class="pvu__secondary-link with-disc"
                 >Query Build Data Dictionary</a
               >
               <a
                 :href="communityBaseUrl + '/query/builder-faqs'"
-                class="pvu__secondary-link"
+                class="pvu__secondary-link with-disc"
                 >Query Builder FAQs</a
               >
               <a :href="communityBaseUrl + '/download/data-download-tables'"
@@ -210,7 +210,7 @@
               >
               <a
                 :href="communityBaseUrl + '/download/data-download-dictionary'"
-                class="pvu__secondary-link"
+                class="pvu__secondary-link with-disc"
                 >Data Download Data Dictionary</a
               >
             </div>
@@ -561,11 +561,11 @@ export default {
   animation-name: shrink; */
 }
 .pvu__logo-text {
-  font-size: 12px;
+  font-size: 13px;
   color: #fff;
   font-style: italic;
   font-weight: bold;
-  margin: 0;
+  margin: 2px 0 0 0;
 }
 /* @keyframes shrink {
   from {
@@ -743,6 +743,12 @@ export default {
 }
 a.pvu__secondary-link {
   padding-left: 40px;
+}
+a.pvu__secondary-link.with-disc:before {
+  content: "\02022";
+  display: inline-block;
+  font-size: 22px;
+  transform: translate(-19px, 4px);
 }
 a.pvu__thirdlevel-link {
   padding-left: 60px;

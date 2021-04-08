@@ -31,7 +31,7 @@
                 >Government Interest</a
               >
               <a :href="communityBaseUrl + '/data-pipeline'">Data Pipeline</a>
-              <a :href="communityBaseUrl + '/methods/classification'"
+              <a :href="communityBaseUrl + '/classification'"
                 >Patent Classes & Technologies</a
               >
             </div>
@@ -109,7 +109,7 @@
                   >Government Interest</a
                 >
                 <a :href="communityBaseUrl + '/data-pipeline'">Data Pipeline</a>
-                <a :href="communityBaseUrl + '/methods/classification'"
+                <a :href="communityBaseUrl + '/classification'"
                   >Patent Classes & Technologies</a
                 >
               </div>
@@ -263,7 +263,7 @@
                 >Government Interest</a
               >
               <a :href="communityBaseUrl + '/data-pipeline'">Data Pipeline</a>
-              <a :href="communityBaseUrl + '/methods/classification'"
+              <a :href="communityBaseUrl + '/classification'"
                 >Patent Classes & Technologies</a
               >
             </div>
@@ -416,7 +416,7 @@
                   <a :href="communityBaseUrl + '/data-pipeline'"
                     >Data Pipeline</a
                   >
-                  <a :href="communityBaseUrl + '/methods/classification'"
+                  <a :href="communityBaseUrl + '/classification'"
                     >Patent Classes & Technologies</a
                   >
                 </div>

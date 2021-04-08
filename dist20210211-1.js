@@ -321,7 +321,8 @@
                 !L &&
                 !V &&
                 void 0 !== t &&
-                t.process && "server" === t.process.env.VUE_ENV),
+                t.process &&
+                "server" === t.process.env.VUE_ENV),
             X
           );
         },
@@ -4703,8 +4704,7 @@
                         "a",
                         {
                           attrs: {
-                            href:
-                              t.communityBaseUrl + "/methods/classification",
+                            href: t.communityBaseUrl + "/classification",
                           },
                         },
                         [t._v("Patent Classes & Technologies")]
@@ -4921,9 +4921,7 @@
                               "a",
                               {
                                 attrs: {
-                                  href:
-                                    t.communityBaseUrl +
-                                    "/methods/classification",
+                                  href: t.communityBaseUrl + "/classification",
                                 },
                               },
                               [t._v("Patent Classes & Technologies")]
@@ -5367,9 +5365,7 @@
                             "a",
                             {
                               attrs: {
-                                href:
-                                  t.communityBaseUrl +
-                                  "/methods/classification",
+                                href: t.communityBaseUrl + "/classification",
                               },
                             },
                             [t._v("Patent Classes & Technologies")]
@@ -5853,7 +5849,7 @@
                                       attrs: {
                                         href:
                                           t.communityBaseUrl +
-                                          "/methods/classification",
+                                          "/classification",
                                       },
                                     },
                                     [t._v("Patent Classes & Technologies")]

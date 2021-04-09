@@ -6067,7 +6067,9 @@
                     n(
                       "a",
                       {
-                        attrs: { href: t.communityBaseUrl + "/terms-privacy" },
+                        attrs: {
+                          href: t.communityBaseUrl + "/about/terms-privacy",
+                        },
                       },
                       [t._v("Terms & Services")]
                     ),

@@ -20,7 +20,9 @@
         </div>
         <div>
           <p>Terms of Use</p>
-          <a :href="communityBaseUrl + '/terms-privacy'">Terms & Services</a>
+          <a :href="communityBaseUrl + '/about/terms-privacy'"
+            >Terms & Services</a
+          >
           <a :href="communityBaseUrl + '/rules-of-conduct'"
             >Community Rules of Conduct</a
           >

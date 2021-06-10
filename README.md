@@ -12,7 +12,7 @@ npm install
 
 # Development
 ## Compile and watch for DEV
-npm run dev
+npm run watch
 ## Auto reload live server
 npm run serve
 

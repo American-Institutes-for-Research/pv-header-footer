@@ -183,6 +183,7 @@
             <div class="pvu__link-menu link-menu2">
               <a :href="pvBaseUrl + '/#search&simp=1'">Simple Search</a>
               <a :href="pvBaseUrl + '/#search'">Advanced Search</a>
+              <a :href="communityBaseUrl + '/search-options'">Search Options</a>
             </div>
           </div>
           <div class="pvu__header-links header-links2">
@@ -192,22 +193,15 @@
             <div class="pvu__link-menu link-menu2">
               <a :href="pvBaseUrl + '/query'">Query Builder</a>
               <a
-                :href="communityBaseUrl + '/query/data-dictionary'"
-                class="pvu__secondary-link with-disc"
-                >Query Build Data Dictionary</a
-              >
-              <a
                 :href="communityBaseUrl + '/query/builder-faqs'"
                 class="pvu__secondary-link with-disc"
                 >Query Builder FAQs</a
               >
               <a :href="communityBaseUrl + '/download/data-download-tables'"
-                >Data Download Tables</a
+                >Data Downloads</a
               >
-              <a
-                :href="communityBaseUrl + '/download/data-download-dictionary'"
-                class="pvu__secondary-link with-disc"
-                >Data Download Data Dictionary</a
+              <a :href="communityBaseUrl + '/data-dictionaries'"
+                >Data Dictionaries</a
               >
             </div>
           </div>
@@ -330,6 +324,9 @@
                 <div>
                   <a :href="pvBaseUrl + '/#search&simp=1'">Simple Search</a>
                   <a :href="pvBaseUrl + '/#search'">Advanced Search</a>
+                  <a :href="communityBaseUrl + '/search-options'"
+                    >Search Options</a
+                  >
                 </div>
               </div>
               <div class="pvu__mobile2-section">
@@ -339,24 +336,15 @@
                 <div>
                   <a :href="pvBaseUrl + '/query'">Query Builder</a>
                   <a
-                    :href="communityBaseUrl + '/query/data-dictionary'"
-                    class="pvu__secondary-link"
-                    >Query Build Data Dictionary</a
-                  >
-                  <a
                     :href="communityBaseUrl + '/query/builder-faqs'"
                     class="pvu__secondary-link"
                     >Query Builder FAQs</a
                   >
                   <a :href="communityBaseUrl + '/download/data-download-tables'"
-                    >Data Download Tables</a
+                    >Data Downloads</a
                   >
-                  <a
-                    :href="
-                      communityBaseUrl + '/download/data-download-dictionary'
-                    "
-                    class="pvu__secondary-link"
-                    >Data Download Data Dictionary</a
+                  <a :href="communityBaseUrl + '/data-dictionaries'"
+                    >Data Dictionaries</a
                   >
                 </div>
               </div>

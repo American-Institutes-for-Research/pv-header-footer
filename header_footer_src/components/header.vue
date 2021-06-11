@@ -183,7 +183,7 @@
             <div class="pvu__link-menu link-menu2">
               <a :href="pvBaseUrl + '/#search&simp=1'">Simple Search</a>
               <a :href="pvBaseUrl + '/#search'">Advanced Search</a>
-              <a :href="communityBaseUrl + '/search-options'">Search Options</a>
+              <!-- <a :href="communityBaseUrl + '/search-options'">Search Options</a> -->
             </div>
           </div>
           <div class="pvu__header-links header-links2">
@@ -324,9 +324,9 @@
                 <div>
                   <a :href="pvBaseUrl + '/#search&simp=1'">Simple Search</a>
                   <a :href="pvBaseUrl + '/#search'">Advanced Search</a>
-                  <a :href="communityBaseUrl + '/search-options'"
+                  <!-- <a :href="communityBaseUrl + '/search-options'"
                     >Search Options</a
-                  >
+                  > -->
                 </div>
               </div>
               <div class="pvu__mobile2-section">

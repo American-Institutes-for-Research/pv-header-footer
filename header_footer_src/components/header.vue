@@ -13,6 +13,11 @@
                 >What Is PatentsView</a
               >
               <a :href="communityBaseUrl + '/glossary'">Glossary</a>
+              <a
+                :href="communityBaseUrl + '/release-notes'"
+                title="Release Notes for PatentsView Data."
+                >Data Release Notes</a
+              >
               <a :href="communityBaseUrl + '/about/terms-privacy'"
                 >Terms of Use and Privacy</a
               >
@@ -89,6 +94,9 @@
                   >What Is PatentsView</a
                 >
                 <a :href="communityBaseUrl + '/glossary'">Glossary</a>
+                <a :href="communityBaseUrl + '/release-notes'"
+                  >Data Release Notes</a
+                >
                 <a :href="communityBaseUrl + '/about/terms-privacy'"
                   >Terms of Use and Privacy</a
                 >
@@ -238,8 +246,20 @@
               <a :href="communityBaseUrl + '/what-is-patentsview'"
                 >What Is PatentsView</a
               >
-              <a :href="communityBaseUrl + '/glossary'">Glossary</a>
-              <a :href="communityBaseUrl + '/about/terms-privacy'"
+              <a
+                :href="communityBaseUrl + '/glossary'"
+                class="pvu__secondary-link with-disc"
+                >Glossary</a
+              >
+              <a
+                :href="communityBaseUrl + '/release-notes'"
+                class="pvu__secondary-link with-disc"
+                title="Release Notes for PatentsView Data."
+                >Data Release Notes</a
+              >
+              <a
+                :href="communityBaseUrl + '/about/terms-privacy'"
+                class="pvu__secondary-link with-disc"
                 >Terms of Use and Privacy</a
               >
             </div>
@@ -337,7 +357,7 @@
                   <a :href="pvBaseUrl + '/query'">Query Builder</a>
                   <a
                     :href="communityBaseUrl + '/query/builder-faqs'"
-                    class="pvu__secondary-link"
+                    class="pvu__secondary-link with-disc"
                     >Query Builder FAQs</a
                   >
                   <a :href="communityBaseUrl + '/download/data-download-tables'"
@@ -381,8 +401,20 @@
                   <a :href="communityBaseUrl + '/what-is-patentsview'"
                     >What Is PatentsView</a
                   >
-                  <a :href="communityBaseUrl + '/glossary'">Glossary</a>
-                  <a :href="communityBaseUrl + '/about/terms-privacy'"
+                  <a
+                    :href="communityBaseUrl + '/glossary'"
+                    class="pvu__secondary-link with-disc"
+                    >Glossary</a
+                  >
+                  <a
+                    :href="communityBaseUrl + '/release-notes'"
+                    class="pvu__secondary-link with-disc"
+                    title="Release Notes for PatentsView Data."
+                    >Data Release Notes</a
+                  >
+                  <a
+                    :href="communityBaseUrl + '/about/terms-privacy'"
+                    class="pvu__secondary-link with-disc"
                     >Terms of Use and Privacy</a
                   >
                 </div>

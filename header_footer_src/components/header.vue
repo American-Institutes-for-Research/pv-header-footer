@@ -18,8 +18,8 @@
                 title="Release Notes for PatentsView Data."
                 >Data Release Notes</a
               >
-              <a :href="communityBaseUrl + '/about/terms-privacy'"
-                >Terms of Use and Privacy</a
+              <a :href="communityBaseUrl + '/about/known-issues'"
+                >Known Issues</a
               >
             </div>
           </div>
@@ -97,8 +97,8 @@
                 <a :href="communityBaseUrl + '/release-notes'"
                   >Data Release Notes</a
                 >
-                <a :href="communityBaseUrl + '/about/terms-privacy'"
-                  >Terms of Use and Privacy</a
+                <a :href="communityBaseUrl + '/about/known-issues'"
+                  >Known Issues</a
                 >
               </div>
             </div>
@@ -258,9 +258,9 @@
                 >Data Release Notes</a
               >
               <a
-                :href="communityBaseUrl + '/about/terms-privacy'"
+                :href="communityBaseUrl + '/about/known-issues'"
                 class="pvu__secondary-link with-disc"
-                >Terms of Use and Privacy</a
+                >Known Issues</a
               >
             </div>
           </div>
@@ -413,9 +413,9 @@
                     >Data Release Notes</a
                   >
                   <a
-                    :href="communityBaseUrl + '/about/terms-privacy'"
+                    :href="communityBaseUrl + '/about/known-issues'"
                     class="pvu__secondary-link with-disc"
-                    >Terms of Use and Privacy</a
+                    >Known Issues</a
                   >
                 </div>
               </div>

@@ -24,3 +24,16 @@ new Vue({
 //     el: sshNotif,
 //     render: h => h(SSHNotif)
 // })
+
+// GA scripts
+var GAScript = document.createElement("script");
+GAScript.src = "https://www.googletagmanager.com/gtag/js?id=G-K4PTTLH074";
+document.head.appendChild(GAScript);
+var GACode = document.createElement("script");
+GACode.innerHTML = /*html*/ `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-K4PTTLH074');
+`;
+document.head.appendChild(GACode);

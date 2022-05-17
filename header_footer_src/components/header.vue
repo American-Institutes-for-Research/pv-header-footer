@@ -7,24 +7,37 @@
           <div class="pvu__header-links header-links1">
             <div class="pvu__link-text link-text1">About</div>
             <div class="pvu__link-menu link-menu1">
-              <a :href="communityBaseUrl + '/what-is-patentsview'">What Is PatentsView</a>
+              <a :href="communityBaseUrl + '/what-is-patentsview'"
+                >What Is PatentsView</a
+              >
               <a :href="communityBaseUrl + '/glossary'">Glossary</a>
               <a
                 :href="communityBaseUrl + '/release-notes'"
                 title="Release Notes for PatentsView Data."
-              >Data Release Notes</a>
-              <a :href="communityBaseUrl + '/about/terms-privacy'">Terms of Use and Privacy</a>
-              <a :href="communityBaseUrl + '/about/known-issues'">Known Issues</a>
+                >Data Release Notes</a
+              >
+              <a :href="communityBaseUrl + '/about/terms-privacy'"
+                >Terms of Use and Privacy</a
+              >
+              <a :href="communityBaseUrl + '/about/known-issues'"
+                >Known Issues</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links1">
             <div class="pvu__link-text link-text1">Methods & Sources</div>
             <div class="pvu__link-menu link-menu1">
               <a :href="communityBaseUrl + '/disambiguation'">Disambiguation</a>
-              <a :href="communityBaseUrl + '/gender-attribution'">Gender Attribution</a>
-              <a :href="communityBaseUrl + '/government-interest'">Government Interest</a>
+              <a :href="communityBaseUrl + '/gender-attribution'"
+                >Gender Attribution</a
+              >
+              <a :href="communityBaseUrl + '/government-interest'"
+                >Government Interest</a
+              >
               <a :href="communityBaseUrl + '/data-pipeline'">Data Pipeline</a>
-              <a :href="communityBaseUrl + '/classification'">Patent Classes & Technologies</a>
+              <a :href="communityBaseUrl + '/classification'"
+                >Patent Classes & Technologies</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links1">
@@ -34,19 +47,28 @@
               <a
                 :href="communityBaseUrl + '/rules-of-conduct'"
                 class="pvu__secondary-link"
-              >Rules of Conduct</a>
+                >Rules of Conduct</a
+              >
               <a
                 :href="communityBaseUrl + '/events'"
                 class="pvu__secondary-link"
-              >Events and Workshops</a>
+                >Events and Workshops</a
+              >
               <a
-                :href="communityBaseUrl + '/entityres'"
+                :href="communityBaseUrl + '/events/genderrace'"
                 class="pvu__thirdlevel-link"
-              >USPTO Symposium on Entity Resolution</a>
-              <a :href="communityBaseUrl + '/contact'" class="pvu__secondary-link">Contact Us</a>
+                >USPTO Symposium, Gender & Race Attribution</a
+              >
+              <a
+                :href="communityBaseUrl + '/contact'"
+                class="pvu__secondary-link"
+                >Contact Us</a
+              >
               <a :href="communityBaseUrl + '/forum'">Forum</a>
               <a :href="communityBaseUrl + '/data-in-action'">Data Spotlight</a>
-              <a :href="communityBaseUrl + '/gender-and-innovation'">Gender & Innovation</a>
+              <a :href="communityBaseUrl + '/gender-and-innovation'"
+                >Gender & Innovation</a
+              >
             </div>
           </div>
         </div>
@@ -63,21 +85,37 @@
             <div class="pvu__mobile1-section">
               <div class="pvu__mobile1-section-head">About</div>
               <div>
-                <a :href="communityBaseUrl + '/what-is-patentsview'">What Is PatentsView</a>
+                <a :href="communityBaseUrl + '/what-is-patentsview'"
+                  >What Is PatentsView</a
+                >
                 <a :href="communityBaseUrl + '/glossary'">Glossary</a>
-                <a :href="communityBaseUrl + '/release-notes'">Data Release Notes</a>
-                <a :href="communityBaseUrl + '/about/terms-privacy'">Terms of Use and Privacy</a>
-                <a :href="communityBaseUrl + '/about/known-issues'">Known Issues</a>
+                <a :href="communityBaseUrl + '/release-notes'"
+                  >Data Release Notes</a
+                >
+                <a :href="communityBaseUrl + '/about/terms-privacy'"
+                  >Terms of Use and Privacy</a
+                >
+                <a :href="communityBaseUrl + '/about/known-issues'"
+                  >Known Issues</a
+                >
               </div>
             </div>
             <div class="pvu__mobile1-section">
               <div class="pvu__mobile1-section-head">Methods & Sources</div>
               <div>
-                <a :href="communityBaseUrl + '/disambiguation'">Disambiguation</a>
-                <a :href="communityBaseUrl + '/gender-attribution'">Gender Attribution</a>
-                <a :href="communityBaseUrl + '/government-interest'">Government Interest</a>
+                <a :href="communityBaseUrl + '/disambiguation'"
+                  >Disambiguation</a
+                >
+                <a :href="communityBaseUrl + '/gender-attribution'"
+                  >Gender Attribution</a
+                >
+                <a :href="communityBaseUrl + '/government-interest'"
+                  >Government Interest</a
+                >
                 <a :href="communityBaseUrl + '/data-pipeline'">Data Pipeline</a>
-                <a :href="communityBaseUrl + '/classification'">Patent Classes & Technologies</a>
+                <a :href="communityBaseUrl + '/classification'"
+                  >Patent Classes & Technologies</a
+                >
               </div>
             </div>
             <div class="pvu__mobile1-section">
@@ -87,19 +125,30 @@
                 <a
                   :href="communityBaseUrl + '/rules-of-conduct'"
                   class="pvu__secondary-link"
-                >Rules of Conduct</a>
+                  >Rules of Conduct</a
+                >
                 <a
                   :href="communityBaseUrl + '/events'"
                   class="pvu__secondary-link"
-                >Events and Workshops</a>
+                  >Events and Workshops</a
+                >
                 <a
-                  :href="communityBaseUrl + '/entityres'"
+                  :href="communityBaseUrl + '/events/genderrace'"
                   class="pvu__thirdlevel-link"
-                >USPTO Symposium on Entity Resolution</a>
-                <a :href="communityBaseUrl + '/contact'" class="pvu__secondary-link">Contact Us</a>
+                  >USPTO Symposium, Gender & Race Attribution</a
+                >
+                <a
+                  :href="communityBaseUrl + '/contact'"
+                  class="pvu__secondary-link"
+                  >Contact Us</a
+                >
                 <a :href="communityBaseUrl + '/forum'">Forum</a>
-                <a :href="communityBaseUrl + '/data-in-action'">Data Spotlight</a>
-                <a :href="communityBaseUrl + '/gender-and-innovation'">Gender & Innovation</a>
+                <a :href="communityBaseUrl + '/data-in-action'"
+                  >Data Spotlight</a
+                >
+                <a :href="communityBaseUrl + '/gender-and-innovation'"
+                  >Gender & Innovation</a
+                >
               </div>
             </div>
           </div>
@@ -108,7 +157,10 @@
     </section>
     <!-- second row -->
     <section class="pvu__header-second">
-      <div class="pvu__header-menu" :class="this.scrollPosY > 45 ? 'longer-second-row' : null">
+      <div
+        class="pvu__header-menu"
+        :class="this.scrollPosY > 45 ? 'longer-second-row' : null"
+      >
         <a href="https://patentsview.org/">
           <div class="pvu__logo">
             <img :src="pv_logo" alt="Logo: USPTO PatentsView" />
@@ -139,9 +191,14 @@
               <a
                 :href="communityBaseUrl + '/query/builder-faqs'"
                 class="pvu__secondary-link with-disc"
-              >Query Builder FAQs</a>
-              <a :href="communityBaseUrl + '/download/data-download-tables'">Data Downloads</a>
-              <a :href="communityBaseUrl + '/data-dictionaries'">Data Dictionaries</a>
+                >Query Builder FAQs</a
+              >
+              <a :href="communityBaseUrl + '/download/data-download-tables'"
+                >Data Downloads</a
+              >
+              <a :href="communityBaseUrl + '/data-dictionaries'"
+                >Data Dictionaries</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2">
@@ -149,47 +206,65 @@
             <div class="pvu__link-menu link-menu2">
               <a :href="communityBaseUrl + '/apis/purpose'">Purpose</a>
               <a :href="communityBaseUrl + '/apis/api-faqs'">API FAQs</a>
-              <a :href="communityBaseUrl + '/apis/api-query-language'">API Query Language</a>
-              <a :href="communityBaseUrl + '/apis/api-endpoints'">API Endpoints</a>
+              <a :href="communityBaseUrl + '/apis/api-query-language'"
+                >API Query Language</a
+              >
+              <a :href="communityBaseUrl + '/apis/api-endpoints'"
+                >API Endpoints</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2">
             <div class="pvu__link-text link-text2">TOPICS</div>
             <div class="pvu__link-menu link-menu2">
-              <a :href="communityBaseUrl + '/gender-and-innovation'">Gender & Innovation</a>
+              <a :href="communityBaseUrl + '/gender-and-innovation'"
+                >Gender & Innovation</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2 secondary-links">
             <div class="pvu__link-text link-text2">ABOUT</div>
             <div class="pvu__link-menu link-menu2">
-              <a :href="communityBaseUrl + '/what-is-patentsview'">What Is PatentsView</a>
+              <a :href="communityBaseUrl + '/what-is-patentsview'"
+                >What Is PatentsView</a
+              >
               <a
                 :href="communityBaseUrl + '/glossary'"
                 class="pvu__secondary-link with-disc"
-              >Glossary</a>
+                >Glossary</a
+              >
               <a
                 :href="communityBaseUrl + '/release-notes'"
                 class="pvu__secondary-link with-disc"
                 title="Release Notes for PatentsView Data."
-              >Data Release Notes</a>
+                >Data Release Notes</a
+              >
               <a
                 :href="communityBaseUrl + '/about/terms-privacy'"
                 class="pvu__secondary-link with-disc"
-              >Terms of Use and Privacy</a>
+                >Terms of Use and Privacy</a
+              >
               <a
                 :href="communityBaseUrl + '/about/known-issues'"
                 class="pvu__secondary-link with-disc"
-              >Known Issues</a>
+                >Known Issues</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2 secondary-links">
             <div class="pvu__link-text link-text2">METHODS & SOURCES</div>
             <div class="pvu__link-menu link-menu2">
               <a :href="communityBaseUrl + '/disambiguation'">Disambiguation</a>
-              <a :href="communityBaseUrl + '/gender-attribution'">Gender Attribution</a>
-              <a :href="communityBaseUrl + '/government-interest'">Government Interest</a>
+              <a :href="communityBaseUrl + '/gender-attribution'"
+                >Gender Attribution</a
+              >
+              <a :href="communityBaseUrl + '/government-interest'"
+                >Government Interest</a
+              >
               <a :href="communityBaseUrl + '/data-pipeline'">Data Pipeline</a>
-              <a :href="communityBaseUrl + '/classification'">Patent Classes & Technologies</a>
+              <a :href="communityBaseUrl + '/classification'"
+                >Patent Classes & Technologies</a
+              >
             </div>
           </div>
           <div class="pvu__header-links header-links2 secondary-links">
@@ -199,19 +274,28 @@
               <a
                 :href="communityBaseUrl + '/rules-of-conduct'"
                 class="pvu__secondary-link"
-              >Rules of Conduct</a>
+                >Rules of Conduct</a
+              >
               <a
                 :href="communityBaseUrl + '/events'"
                 class="pvu__secondary-link"
-              >Events and Workshops</a>
+                >Events and Workshops</a
+              >
               <a
-                :href="communityBaseUrl + '/entityres'"
+                :href="communityBaseUrl + '/events/genderrace'"
                 class="pvu__thirdlevel-link"
-              >USPTO Symposium on Entity Resolution</a>
-              <a :href="communityBaseUrl + '/contact'" class="pvu__secondary-link">Contact Us</a>
+                >USPTO Symposium, Gender & Race Attribution</a
+              >
+              <a
+                :href="communityBaseUrl + '/contact'"
+                class="pvu__secondary-link"
+                >Contact Us</a
+              >
               <a :href="communityBaseUrl + '/forum'">Forum</a>
               <a :href="communityBaseUrl + '/data-in-action'">Data Spotlight</a>
-              <a :href="communityBaseUrl + '/gender-and-innovation'">Gender & Innovation</a>
+              <a :href="communityBaseUrl + '/gender-and-innovation'"
+                >Gender & Innovation</a
+              >
             </div>
           </div>
         </div>
@@ -235,7 +319,9 @@
                 </div>
               </div>
               <div class="pvu__mobile2-section">
-                <div class="pvu__mobile2-section-head">EXPLORE PATENTS DATA</div>
+                <div class="pvu__mobile2-section-head">
+                  EXPLORE PATENTS DATA
+                </div>
                 <div>
                   <a :href="pvBaseUrl + '/#search&simp=1'">Simple Search</a>
                   <a :href="pvBaseUrl + '/#search'">Advanced Search</a>
@@ -251,9 +337,14 @@
                   <a
                     :href="communityBaseUrl + '/query/builder-faqs'"
                     class="pvu__secondary-link with-disc"
-                  >Query Builder FAQs</a>
-                  <a :href="communityBaseUrl + '/download/data-download-tables'">Data Downloads</a>
-                  <a :href="communityBaseUrl + '/data-dictionaries'">Data Dictionaries</a>
+                    >Query Builder FAQs</a
+                  >
+                  <a :href="communityBaseUrl + '/download/data-download-tables'"
+                    >Data Downloads</a
+                  >
+                  <a :href="communityBaseUrl + '/data-dictionaries'"
+                    >Data Dictionaries</a
+                  >
                 </div>
               </div>
               <div class="pvu__mobile2-section">
@@ -261,47 +352,69 @@
                 <div>
                   <a :href="communityBaseUrl + '/apis/purpose'">Purpose</a>
                   <a :href="communityBaseUrl + '/apis/api-faqs'">API FAQs</a>
-                  <a :href="communityBaseUrl + '/apis/api-query-language'">API Query Language</a>
-                  <a :href="communityBaseUrl + '/apis/api-endpoints'">API Endpoints</a>
+                  <a :href="communityBaseUrl + '/apis/api-query-language'"
+                    >API Query Language</a
+                  >
+                  <a :href="communityBaseUrl + '/apis/api-endpoints'"
+                    >API Endpoints</a
+                  >
                 </div>
               </div>
               <div class="pvu__mobile2-section">
                 <div class="pvu__mobile2-section-head">TOPICS</div>
                 <div>
-                  <a :href="communityBaseUrl + '/gender-and-innovation'">Gender & Innovation</a>
+                  <a :href="communityBaseUrl + '/gender-and-innovation'"
+                    >Gender & Innovation</a
+                  >
                 </div>
               </div>
               <div class="pvu__mobile2-section secondary-links">
                 <div class="pvu__mobile2-section-head">ABOUT</div>
                 <div>
-                  <a :href="communityBaseUrl + '/what-is-patentsview'">What Is PatentsView</a>
+                  <a :href="communityBaseUrl + '/what-is-patentsview'"
+                    >What Is PatentsView</a
+                  >
                   <a
                     :href="communityBaseUrl + '/glossary'"
                     class="pvu__secondary-link with-disc"
-                  >Glossary</a>
+                    >Glossary</a
+                  >
                   <a
                     :href="communityBaseUrl + '/release-notes'"
                     class="pvu__secondary-link with-disc"
                     title="Release Notes for PatentsView Data."
-                  >Data Release Notes</a>
+                    >Data Release Notes</a
+                  >
                   <a
                     :href="communityBaseUrl + '/about/terms-privacy'"
                     class="pvu__secondary-link with-disc"
-                  >Terms of Use and Privacy</a>
+                    >Terms of Use and Privacy</a
+                  >
                   <a
                     :href="communityBaseUrl + '/about/known-issues'"
                     class="pvu__secondary-link with-disc"
-                  >Known Issues</a>
+                    >Known Issues</a
+                  >
                 </div>
               </div>
               <div class="pvu__mobile2-section secondary-links">
                 <div class="pvu__mobile2-section-head">METHODS & SOURCES</div>
                 <div>
-                  <a :href="communityBaseUrl + '/disambiguation'">Disambiguation</a>
-                  <a :href="communityBaseUrl + '/gender-attribution'">Gender Attribution</a>
-                  <a :href="communityBaseUrl + '/government-interest'">Government Interest</a>
-                  <a :href="communityBaseUrl + '/data-pipeline'">Data Pipeline</a>
-                  <a :href="communityBaseUrl + '/classification'">Patent Classes & Technologies</a>
+                  <a :href="communityBaseUrl + '/disambiguation'"
+                    >Disambiguation</a
+                  >
+                  <a :href="communityBaseUrl + '/gender-attribution'"
+                    >Gender Attribution</a
+                  >
+                  <a :href="communityBaseUrl + '/government-interest'"
+                    >Government Interest</a
+                  >
+                  <a :href="communityBaseUrl + '/data-pipeline'"
+                    >Data Pipeline</a
+                  >
+                  <a :href="communityBaseUrl + '/classification'"
+                    >Patent Classes & Technologies</a
+                  >
                 </div>
               </div>
               <div class="pvu__mobile2-section secondary-links">
@@ -311,19 +424,30 @@
                   <a
                     :href="communityBaseUrl + '/rules-of-conduct'"
                     class="pvu__secondary-link"
-                  >Rules of Conduct</a>
+                    >Rules of Conduct</a
+                  >
                   <a
                     :href="communityBaseUrl + '/events'"
                     class="pvu__secondary-link"
-                  >Events and Workshops</a>
+                    >Events and Workshops</a
+                  >
                   <a
-                    :href="communityBaseUrl + '/entityres'"
+                    :href="communityBaseUrl + '/events/genderrace'"
                     class="pvu__thirdlevel-link"
-                  >USPTO Symposium on Entity Resolution</a>
-                  <a :href="communityBaseUrl + '/contact'" class="pvu__secondary-link">Contact Us</a>
+                    >USPTO Symposium, Gender & Race Attribution</a
+                  >
+                  <a
+                    :href="communityBaseUrl + '/contact'"
+                    class="pvu__secondary-link"
+                    >Contact Us</a
+                  >
                   <a :href="communityBaseUrl + '/forum'">Forum</a>
-                  <a :href="communityBaseUrl + '/data-in-action'">Data Spotlight</a>
-                  <a :href="communityBaseUrl + '/gender-and-innovation'">Gender & Innovation</a>
+                  <a :href="communityBaseUrl + '/data-in-action'"
+                    >Data Spotlight</a
+                  >
+                  <a :href="communityBaseUrl + '/gender-and-innovation'"
+                    >Gender & Innovation</a
+                  >
                 </div>
               </div>
             </div>

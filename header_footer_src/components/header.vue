@@ -55,9 +55,9 @@
                 >Events and Workshops</a
               >
               <a
-                :href="communityBaseUrl + '/events/genderrace'"
+                :href="communityBaseUrl + '/events/august26-2022'"
                 class="pvu__thirdlevel-link"
-                >USPTO Symposium, Gender & Race Attribution</a
+                >USPTO Symposium: Advancing research on inventor demographics</a
               >
               <a
                 :href="communityBaseUrl + '/contact'"
@@ -133,9 +133,10 @@
                   >Events and Workshops</a
                 >
                 <a
-                  :href="communityBaseUrl + '/events/genderrace'"
+                  :href="communityBaseUrl + '/events/august26-2022'"
                   class="pvu__thirdlevel-link"
-                  >USPTO Symposium, Gender & Race Attribution</a
+                  >USPTO Symposium: Advancing research on inventor
+                  demographics</a
                 >
                 <a
                   :href="communityBaseUrl + '/contact'"
@@ -282,9 +283,9 @@
                 >Events and Workshops</a
               >
               <a
-                :href="communityBaseUrl + '/events/genderrace'"
+                :href="communityBaseUrl + '/events/august26-2022'"
                 class="pvu__thirdlevel-link"
-                >USPTO Symposium, Gender & Race Attribution</a
+                >USPTO Symposium: Advancing research on inventor demographics</a
               >
               <a
                 :href="communityBaseUrl + '/contact'"
@@ -432,9 +433,10 @@
                     >Events and Workshops</a
                   >
                   <a
-                    :href="communityBaseUrl + '/events/genderrace'"
+                    :href="communityBaseUrl + '/events/august26-2022'"
                     class="pvu__thirdlevel-link"
-                    >USPTO Symposium, Gender & Race Attribution</a
+                    >USPTO Symposium: Advancing research on inventor
+                    demographics</a
                   >
                   <a
                     :href="communityBaseUrl + '/contact'"

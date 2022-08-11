@@ -22,6 +22,7 @@
               <a :href="communityBaseUrl + '/about/known-issues'"
                 >Known Issues</a
               >
+              <a :href="communityBaseUrl + '/resources'">Resources</a>
             </div>
           </div>
           <div class="pvu__header-links header-links1">
@@ -66,9 +67,6 @@
               >
               <a :href="communityBaseUrl + '/forum'">Forum</a>
               <a :href="communityBaseUrl + '/data-in-action'">Data Spotlight</a>
-              <a :href="communityBaseUrl + '/gender-and-innovation'"
-                >Gender & Innovation</a
-              >
             </div>
           </div>
         </div>
@@ -98,6 +96,7 @@
                 <a :href="communityBaseUrl + '/about/known-issues'"
                   >Known Issues</a
                 >
+                <a :href="communityBaseUrl + '/resources'">Resources</a>
               </div>
             </div>
             <div class="pvu__mobile1-section">
@@ -146,9 +145,6 @@
                 <a :href="communityBaseUrl + '/forum'">Forum</a>
                 <a :href="communityBaseUrl + '/data-in-action'"
                   >Data Spotlight</a
-                >
-                <a :href="communityBaseUrl + '/gender-and-innovation'"
-                  >Gender & Innovation</a
                 >
               </div>
             </div>
@@ -218,6 +214,9 @@
           <div class="pvu__header-links header-links2">
             <div class="pvu__link-text link-text2">TOPICS</div>
             <div class="pvu__link-menu link-menu2">
+              <a :href="communityBaseUrl + '/ai-and-innovation'"
+                >AI & Innovation</a
+              >
               <a :href="communityBaseUrl + '/gender-and-innovation'"
                 >Gender & Innovation</a
               >
@@ -249,6 +248,11 @@
                 :href="communityBaseUrl + '/about/known-issues'"
                 class="pvu__secondary-link with-disc"
                 >Known Issues</a
+              >
+              <a
+                :href="communityBaseUrl + '/resources'"
+                class="pvu__secondary-link with-disc"
+                >Resources</a
               >
             </div>
           </div>
@@ -294,9 +298,6 @@
               >
               <a :href="communityBaseUrl + '/forum'">Forum</a>
               <a :href="communityBaseUrl + '/data-in-action'">Data Spotlight</a>
-              <a :href="communityBaseUrl + '/gender-and-innovation'"
-                >Gender & Innovation</a
-              >
             </div>
           </div>
         </div>
@@ -364,6 +365,9 @@
               <div class="pvu__mobile2-section">
                 <div class="pvu__mobile2-section-head">TOPICS</div>
                 <div>
+                  <a :href="communityBaseUrl + '/ai-and-innovation'"
+                    >AI & Innovation</a
+                  >
                   <a :href="communityBaseUrl + '/gender-and-innovation'"
                     >Gender & Innovation</a
                   >
@@ -395,6 +399,11 @@
                     :href="communityBaseUrl + '/about/known-issues'"
                     class="pvu__secondary-link with-disc"
                     >Known Issues</a
+                  >
+                  <a
+                    :href="communityBaseUrl + '/resources'"
+                    class="pvu__secondary-link with-disc"
+                    >Resources</a
                   >
                 </div>
               </div>
@@ -446,9 +455,6 @@
                   <a :href="communityBaseUrl + '/forum'">Forum</a>
                   <a :href="communityBaseUrl + '/data-in-action'"
                     >Data Spotlight</a
-                  >
-                  <a :href="communityBaseUrl + '/gender-and-innovation'"
-                    >Gender & Innovation</a
                   >
                 </div>
               </div>

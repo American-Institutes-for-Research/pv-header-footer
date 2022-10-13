@@ -19,9 +19,9 @@
               <a :href="communityBaseUrl + '/about/terms-privacy'"
                 >Terms of Use and Privacy</a
               >
-              <a :href="communityBaseUrl + '/about/known-issues'"
+              <!-- <a :href="communityBaseUrl + '/about/known-issues'"
                 >Known Issues</a
-              >
+              > -->
               <a :href="communityBaseUrl + '/resources'">Resources</a>
             </div>
           </div>
@@ -93,9 +93,9 @@
                 <a :href="communityBaseUrl + '/about/terms-privacy'"
                   >Terms of Use and Privacy</a
                 >
-                <a :href="communityBaseUrl + '/about/known-issues'"
+                <!-- <a :href="communityBaseUrl + '/about/known-issues'"
                   >Known Issues</a
-                >
+                > -->
                 <a :href="communityBaseUrl + '/resources'">Resources</a>
               </div>
             </div>
@@ -244,11 +244,11 @@
                 class="pvu__secondary-link with-disc"
                 >Terms of Use and Privacy</a
               >
-              <a
+              <!-- <a
                 :href="communityBaseUrl + '/about/known-issues'"
                 class="pvu__secondary-link with-disc"
                 >Known Issues</a
-              >
+              > -->
               <a
                 :href="communityBaseUrl + '/resources'"
                 class="pvu__secondary-link with-disc"
@@ -395,11 +395,11 @@
                     class="pvu__secondary-link with-disc"
                     >Terms of Use and Privacy</a
                   >
-                  <a
+                  <!-- <a
                     :href="communityBaseUrl + '/about/known-issues'"
                     class="pvu__secondary-link with-disc"
                     >Known Issues</a
-                  >
+                  > -->
                   <a
                     :href="communityBaseUrl + '/resources'"
                     class="pvu__secondary-link with-disc"

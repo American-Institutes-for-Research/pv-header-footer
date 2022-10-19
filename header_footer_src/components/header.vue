@@ -29,6 +29,9 @@
             <div class="pvu__link-text link-text1">Methods & Sources</div>
             <div class="pvu__link-menu link-menu1">
               <a :href="communityBaseUrl + '/disambiguation'">Disambiguation</a>
+              <a :href="communityBaseUrl + '/location-standardization'"
+                >Location Standardization</a
+              >
               <a :href="communityBaseUrl + '/gender-attribution'"
                 >Gender Attribution</a
               >
@@ -104,6 +107,9 @@
               <div>
                 <a :href="communityBaseUrl + '/disambiguation'"
                   >Disambiguation</a
+                >
+                <a :href="communityBaseUrl + '/location-standardization'"
+                  >Location Standardization</a
                 >
                 <a :href="communityBaseUrl + '/gender-attribution'"
                   >Gender Attribution</a
@@ -260,6 +266,9 @@
             <div class="pvu__link-text link-text2">METHODS & SOURCES</div>
             <div class="pvu__link-menu link-menu2">
               <a :href="communityBaseUrl + '/disambiguation'">Disambiguation</a>
+              <a :href="communityBaseUrl + '/location-standardization'"
+                >Location Standardization</a
+              >
               <a :href="communityBaseUrl + '/gender-attribution'"
                 >Gender Attribution</a
               >
@@ -412,6 +421,9 @@
                 <div>
                   <a :href="communityBaseUrl + '/disambiguation'"
                     >Disambiguation</a
+                  >
+                  <a :href="communityBaseUrl + '/location-standardization'"
+                    >Location Standardization</a
                   >
                   <a :href="communityBaseUrl + '/gender-attribution'"
                     >Gender Attribution</a

@@ -10,7 +10,7 @@
           Office (USPTO) bulk data files. These data are provided for research
           purposes and do not constitute the official USPTO record...
         </p>
-        <a :href="communityBaseUrl + '/rules-of-conduct'">TERMS & SERVICES ></a>
+        <a :href="communityBaseUrl + '/rules-of-conduct'">TERMS OF SERVICE ></a>
         <p>
           Users are free to use, share, or adapt the material for any purpose,
           subject to the standards of the Creative Commons Attribution 4.0

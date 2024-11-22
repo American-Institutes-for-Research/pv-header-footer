@@ -21,7 +21,7 @@
         <div>
           <p>Terms of Use</p>
           <a :href="communityBaseUrl + '/about/terms-privacy'"
-            >Terms & Services</a
+            >Terms of Service</a
           >
           <a :href="communityBaseUrl + '/rules-of-conduct'"
             >Community Rules of Conduct</a

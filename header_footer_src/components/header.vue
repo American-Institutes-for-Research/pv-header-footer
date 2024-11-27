@@ -64,9 +64,9 @@
                 >USPTO Symposium: Advancing research on inventor demographics</a
               >
               <a
-                :href="communityBaseUrl + '/contact'"
+                href="https://patentsview-support.atlassian.net/servicedesk/customer/portals'"
                 class="pvu__secondary-link"
-                >Contact Us</a
+                >Support</a
               >
               <a :href="communityBaseUrl + '/forum'">Forum</a>
               <a :href="communityBaseUrl + '/data-in-action'">Data Spotlight</a>
@@ -144,9 +144,9 @@
                   demographics</a
                 >
                 <a
-                  :href="communityBaseUrl + '/contact'"
+                  href="https://patentsview-support.atlassian.net/servicedesk/customer/portals'"
                   class="pvu__secondary-link"
-                  >Contact Us</a
+                  >Support</a
                 >
                 <a :href="communityBaseUrl + '/forum'">Forum</a>
                 <a :href="communityBaseUrl + '/data-in-action'"
@@ -190,30 +190,37 @@
           <div class="pvu__header-links header-links2">
             <div class="pvu__link-text link-text2">DATASETS</div>
             <div class="pvu__link-menu link-menu2">
-              <a :href="pvBaseUrl + '/query'">Query Builder</a>
+              <a :href="communityBaseUrl + '/download/data-download-tables'"
+                >Data Downloads</a
+              >
+              <a :href="communityBaseUrl + '/data/annualized'"
+                >Annualized Data Downloads</a
+              >
+              <a :href="communityBaseUrl + '/data-dictionaries'"
+                >Data Dictionaries</a
+              >
+              <a :href="pvBaseUrl + '/query'">Query Builder (Pending)</a>
               <a
                 :href="communityBaseUrl + '/query/builder-faqs'"
                 class="pvu__secondary-link with-disc"
                 >Query Builder FAQs</a
-              >
-              <a :href="communityBaseUrl + '/download/data-download-tables'"
-                >Data Downloads</a
-              >
-              <a :href="communityBaseUrl + '/data-dictionaries'"
-                >Data Dictionaries</a
               >
             </div>
           </div>
           <div class="pvu__header-links header-links2">
             <div class="pvu__link-text link-text2">API</div>
             <div class="pvu__link-menu link-menu2">
-              <a :href="communityBaseUrl + '/apis/purpose'">Purpose</a>
-              <a :href="communityBaseUrl + '/apis/api-faqs'">API FAQs</a>
-              <a :href="communityBaseUrl + '/apis/api-query-language'"
-                >API Query Language</a
+              <a
+                href="https://search.patentsview.org/docs/?_gl=1*bnrdyv*_ga*MTk5MjAyNTUyMS4xNzI5NTIxMTU5*_ga_K4PTTLH074*MTczMjczMDgxMS45LjEuMTczMjczMDk4Ny42MC4wLjA."
+                >PatentSearch API Updates</a
               >
+              <a
+                href="https://search.patentsview.org/docs/docs/Search%20API/SearchAPIReference/?_gl=1*1l3t7w0*_ga*MTk5MjAyNTUyMS4xNzI5NTIxMTU5*_ga_K4PTTLH074*MTczMjczMDgxMS45LjEuMTczMjczMDk4Ny42MC4wLjA."
+                >PatentSearch API Reference</a
+              >
+              <a :href="communityBaseUrl + '/apis/api-faqs'">API FAQs</a>
               <a :href="communityBaseUrl + '/apis/api-endpoints'"
-                >API Endpoints</a
+                >Legacy API Endpoints</a
               >
             </div>
           </div>
@@ -301,9 +308,9 @@
                 >USPTO Symposium: Advancing research on inventor demographics</a
               >
               <a
-                :href="communityBaseUrl + '/contact'"
+                href="https://patentsview-support.atlassian.net/servicedesk/customer/portals'"
                 class="pvu__secondary-link"
-                >Contact Us</a
+                >Support</a
               >
               <a :href="communityBaseUrl + '/forum'">Forum</a>
               <a :href="communityBaseUrl + '/data-in-action'">Data Spotlight</a>
@@ -344,30 +351,37 @@
               <div class="pvu__mobile2-section">
                 <div class="pvu__mobile2-section-head">DATASETS</div>
                 <div>
-                  <a :href="pvBaseUrl + '/query'">Query Builder</a>
+                  <a :href="communityBaseUrl + '/download/data-download-tables'"
+                    >Data Downloads</a
+                  >
+                  <a :href="communityBaseUrl + '/data/annualized'"
+                    >Annualized Data Downloads</a
+                  >
+                  <a :href="communityBaseUrl + '/data-dictionaries'"
+                    >Data Dictionaries</a
+                  >
+                  <a :href="pvBaseUrl + '/query'">Query Builder (Pending)</a>
                   <a
                     :href="communityBaseUrl + '/query/builder-faqs'"
                     class="pvu__secondary-link with-disc"
                     >Query Builder FAQs</a
-                  >
-                  <a :href="communityBaseUrl + '/download/data-download-tables'"
-                    >Data Downloads</a
-                  >
-                  <a :href="communityBaseUrl + '/data-dictionaries'"
-                    >Data Dictionaries</a
                   >
                 </div>
               </div>
               <div class="pvu__mobile2-section">
                 <div class="pvu__mobile2-section-head">API</div>
                 <div>
-                  <a :href="communityBaseUrl + '/apis/purpose'">Purpose</a>
-                  <a :href="communityBaseUrl + '/apis/api-faqs'">API FAQs</a>
-                  <a :href="communityBaseUrl + '/apis/api-query-language'"
-                    >API Query Language</a
+                  <a
+                    href="https://search.patentsview.org/docs/?_gl=1*bnrdyv*_ga*MTk5MjAyNTUyMS4xNzI5NTIxMTU5*_ga_K4PTTLH074*MTczMjczMDgxMS45LjEuMTczMjczMDk4Ny42MC4wLjA."
+                    >PatentSearch API Updates</a
                   >
+                  <a
+                    href="https://search.patentsview.org/docs/docs/Search%20API/SearchAPIReference/?_gl=1*1l3t7w0*_ga*MTk5MjAyNTUyMS4xNzI5NTIxMTU5*_ga_K4PTTLH074*MTczMjczMDgxMS45LjEuMTczMjczMDk4Ny42MC4wLjA."
+                    >PatentSearch API Reference</a
+                  >
+                  <a :href="communityBaseUrl + '/apis/api-faqs'">API FAQs</a>
                   <a :href="communityBaseUrl + '/apis/api-endpoints'"
-                    >API Endpoints</a
+                    >Legacy API Endpoints</a
                   >
                 </div>
               </div>
@@ -460,9 +474,9 @@
                     demographics</a
                   >
                   <a
-                    :href="communityBaseUrl + '/contact'"
+                    href="https://patentsview-support.atlassian.net/servicedesk/customer/portals'"
                     class="pvu__secondary-link"
-                    >Contact Us</a
+                    >Support</a
                   >
                   <a :href="communityBaseUrl + '/forum'">Forum</a>
                   <a :href="communityBaseUrl + '/data-in-action'"
